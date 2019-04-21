@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lab_sep">
+
+    <com.ganada.silsiganmetro.view.CustomTitlebar
+        android:id="@+id/layTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/margin_small">
+
+            <LinearLayout
+                android:id="@+id/layout_sta_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_vertical"
+                android:minWidth="100dp"
+                android:background="@drawable/icon_1002_sta">
+
+                <TextView
+                    android:id="@+id/txt_circle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:minWidth="20dp"
+                    android:layout_marginLeft="8dp"
+                    android:paddingLeft="4dp"
+                    android:paddingRight="4dp"
+                    android:gravity="center"
+                    android:background="@drawable/icon_linenum"
+                    android:text="분당"
+                    android:textColor="@color/bg_white"
+                    android:textSize="12sp"/>
+
+                <TextView
+                    android:id="@+id/txt_station"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:text="@string/fab_test_2"
+                    android:textColor="@color/lab_station"
+                    android:textSize="@dimen/fab_station"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </com.ganada.silsiganmetro.view.CustomTitlebar>
+
+    <LinearLayout
+        android:id="@+id/layout_btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layTitle"
+        android:background="@color/lab_back"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/layout_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_small"
+            android:orientation="horizontal">
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_norm"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_setting"
+                android:layout_weight="1"
+                android:background="@drawable/item_main_bg"
+                android:text="평일"
+                android:textColor="@color/item_text"
+                android:textSize="@dimen/txt_sub"/>
+
+            <View
+                android:layout_width="@dimen/margin_small"
+                android:layout_height="1dp" />
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_week"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_setting"
+                android:layout_weight="1"
+                android:background="@drawable/item_main_bg"
+                android:text="토요일"
+                android:textColor="@color/item_text"
+                android:textSize="@dimen/txt_sub"/>
+
+            <View
+                android:layout_width="@dimen/margin_small"
+                android:layout_height="1dp" />
+
+            <Button
+                style="?android:attr/borderlessButtonStyle"
+                android:id="@+id/btn_sunday"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/btn_setting"
+                android:layout_weight="1"
+                android:background="@drawable/item_main_bg"
+                android:text="공휴일"
+                android:textColor="@color/item_text"
+                android:textSize="@dimen/txt_sub"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_loading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout_btn_back"
+        android:padding="@dimen/margin_small"
+        android:gravity="center"
+        android:background="@color/lab_sep"
+        android:text="시간표를 불러오고 있습니다."
+        android:textSize="@dimen/txt_station"
+        android:textColor="@color/lab_subtext"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txt_loading"
+        android:background="@color/lab_sep"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:divider="#00000000"
+        android:dividerHeight="0sp"
+        android:fadingEdge="none"
+        android:scrollbars="none" />
+
+</RelativeLayout>

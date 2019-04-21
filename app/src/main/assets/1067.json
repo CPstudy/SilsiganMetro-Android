@@ -1,0 +1,218 @@
+[
+  {
+    "staNum": 1067080116,
+    "staName": "청량리",
+    "staInfo": 2,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080117,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1067080117,
+    "staName": "회기",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080118,
+    "staNext": 1067080116
+  },
+  {
+    "staNum": 1067080118,
+    "staName": "중랑",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080120,
+    "staNext": 1067080117
+  },
+  {
+    "staNum": 1067080120,
+    "staName": "상봉",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080121,
+    "staNext": 1067080118
+  },
+  {
+    "staNum": 1067080121,
+    "staName": "망우",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080122,
+    "staNext": 1067080120
+  },
+  {
+    "staNum": 1067080122,
+    "staName": "신내",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080123,
+    "staNext": 1067080121
+  },
+  {
+    "staNum": 1067080123,
+    "staName": "갈매",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080124,
+    "staNext": 1067080122
+  },
+  {
+    "staNum": 1067080124,
+    "staName": "별내",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080125,
+    "staNext": 1067080123
+  },
+  {
+    "staNum": 1067080125,
+    "staName": "퇴계원",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080126,
+    "staNext": 1067080124
+  },
+  {
+    "staNum": 1067080126,
+    "staName": "사릉",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080127,
+    "staNext": 1067080125
+  },
+  {
+    "staNum": 1067080127,
+    "staName": "금곡",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080128,
+    "staNext": 1067080126
+  },
+  {
+    "staNum": 1067080128,
+    "staName": "평내호평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080129,
+    "staNext": 1067080127
+  },
+  {
+    "staNum": 1067080129,
+    "staName": "천마산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080130,
+    "staNext": 1067080128
+  },
+  {
+    "staNum": 1067080130,
+    "staName": "마석",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080131,
+    "staNext": 1067080129
+  },
+  {
+    "staNum": 1067080131,
+    "staName": "대성리",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080132,
+    "staNext": 1067080130
+  },
+  {
+    "staNum": 1067080132,
+    "staName": "청평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080133,
+    "staNext": 1067080131
+  },
+  {
+    "staNum": 1067080133,
+    "staName": "상천",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080134,
+    "staNext": 1067080132
+  },
+  {
+    "staNum": 1067080134,
+    "staName": "가평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080135,
+    "staNext": 1067080133
+  },
+  {
+    "staNum": 1067080135,
+    "staName": "굴복산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080136,
+    "staNext": 1067080134
+  },
+  {
+    "staNum": 1067080136,
+    "staName": "백양리",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080137,
+    "staNext": 1067080135
+  },
+  {
+    "staNum": 1067080137,
+    "staName": "강촌",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080138,
+    "staNext": 1067080136
+  },
+  {
+    "staNum": 1067080138,
+    "staName": "김유정",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080139,
+    "staNext": 1067080137
+  },
+  {
+    "staNum": 1067080139,
+    "staName": "남춘천",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1067080140,
+    "staNext": 1067080138
+  },
+  {
+    "staNum": 1067080140,
+    "staName": "춘천",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1067080139
+  }
+]

@@ -1,0 +1,9 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<resources>
+	<color name="bg_black">#181a1d</color>
+	<color name="bg_white">#fafafa</color>
+
+	<!-- TEXT -->
+	<color name="txt_white">#eeeeee</color>
+	<color name="txt_black">#222222</color>
+</resources>

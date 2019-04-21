@@ -1,0 +1,488 @@
+[
+  {
+    "staNum": 1000000000,
+    "staName": "본선",
+    "staInfo": 9,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1005000510,
+    "staName": "방화",
+    "staInfo": 2,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000511,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1005000511,
+    "staName": "개화산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000512,
+    "staNext": 1005000510
+  },
+  {
+    "staNum": 1005000512,
+    "staName": "김포공항",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000513,
+    "staNext": 1005000511
+  },
+  {
+    "staNum": 1005000513,
+    "staName": "송정",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000514,
+    "staNext": 1005000512
+  },
+  {
+    "staNum": 1005000514,
+    "staName": "마곡",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000515,
+    "staNext": 1005000513
+  },
+  {
+    "staNum": 1005000515,
+    "staName": "발산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000516,
+    "staNext": 1005000514
+  },
+  {
+    "staNum": 1005000516,
+    "staName": "우장산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000517,
+    "staNext": 1005000515
+  },
+  {
+    "staNum": 1005000517,
+    "staName": "화곡",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000518,
+    "staNext": 1005000516
+  },
+  {
+    "staNum": 1005000518,
+    "staName": "까치산",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000519,
+    "staNext": 1005000517
+  },
+  {
+    "staNum": 1005000519,
+    "staName": "신정",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000520,
+    "staNext": 1005000518
+  },
+  {
+    "staNum": 1005000520,
+    "staName": "목동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000521,
+    "staNext": 1005000519
+  },
+  {
+    "staNum": 1005000521,
+    "staName": "오목교",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000522,
+    "staNext": 1005000520
+  },
+  {
+    "staNum": 1005000522,
+    "staName": "양평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000523,
+    "staNext": 1005000521
+  },
+  {
+    "staNum": 1005000523,
+    "staName": "영등포구청",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000524,
+    "staNext": 1005000522
+  },
+  {
+    "staNum": 1005000524,
+    "staName": "영등포시장",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000525,
+    "staNext": 1005000523
+  },
+  {
+    "staNum": 1005000525,
+    "staName": "신길",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000526,
+    "staNext": 1005000524
+  },
+  {
+    "staNum": 1005000526,
+    "staName": "여의도",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000527,
+    "staNext": 1005000525
+  },
+  {
+    "staNum": 1005000527,
+    "staName": "여의나루",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000528,
+    "staNext": 1005000526
+  },
+  {
+    "staNum": 1005000528,
+    "staName": "마포",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000529,
+    "staNext": 1005000527
+  },
+  {
+    "staNum": 1005000529,
+    "staName": "공덕",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000530,
+    "staNext": 1005000528
+  },
+  {
+    "staNum": 1005000530,
+    "staName": "애오개",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000531,
+    "staNext": 1005000529
+  },
+  {
+    "staNum": 1005000531,
+    "staName": "충정로",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000532,
+    "staNext": 1005000530
+  },
+  {
+    "staNum": 1005000532,
+    "staName": "서대문",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000533,
+    "staNext": 1005000531
+  },
+  {
+    "staNum": 1005000533,
+    "staName": "광화문",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000534,
+    "staNext": 1005000532
+  },
+  {
+    "staNum": 1005000534,
+    "staName": "종로3가",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000535,
+    "staNext": 1005000533
+  },
+  {
+    "staNum": 1005000535,
+    "staName": "을지로4가",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000536,
+    "staNext": 1005000534
+  },
+  {
+    "staNum": 1005000536,
+    "staName": "동대문역사문화공원",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000537,
+    "staNext": 1005000535
+  },
+  {
+    "staNum": 1005000537,
+    "staName": "청구",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000538,
+    "staNext": 1005000536
+  },
+  {
+    "staNum": 1005000538,
+    "staName": "신금호",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000539,
+    "staNext": 1005000537
+  },
+  {
+    "staNum": 1005000539,
+    "staName": "행당",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000540,
+    "staNext": 1005000538
+  },
+  {
+    "staNum": 1005000540,
+    "staName": "왕십리",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000541,
+    "staNext": 1005000539
+  },
+  {
+    "staNum": 1005000541,
+    "staName": "마장",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000542,
+    "staNext": 1005000540
+  },
+  {
+    "staNum": 1005000542,
+    "staName": "답십리",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000543,
+    "staNext": 1005000541
+  },
+  {
+    "staNum": 1005000543,
+    "staName": "장한평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000544,
+    "staNext": 1005000542
+  },
+  {
+    "staNum": 1005000544,
+    "staName": "군자",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000545,
+    "staNext": 1005000543
+  },
+  {
+    "staNum": 1005000545,
+    "staName": "아차산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000546,
+    "staNext": 1005000544
+  },
+  {
+    "staNum": 1005000546,
+    "staName": "광나루",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000547,
+    "staNext": 1005000545
+  },
+  {
+    "staNum": 1005000547,
+    "staName": "천호",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000548,
+    "staNext": 1005000546
+  },
+  {
+    "staNum": 1005000548,
+    "staName": "강동",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000549,
+    "staNext": 1005000547
+  },
+  {
+    "staNum": 1005000549,
+    "staName": "길동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000550,
+    "staNext": 1005000548
+  },
+  {
+    "staNum": 1005000550,
+    "staName": "굽은다리",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000551,
+    "staNext": 1005000549
+  },
+  {
+    "staNum": 1005000551,
+    "staName": "명일",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000552,
+    "staNext": 1005000550
+  },
+  {
+    "staNum": 1005000552,
+    "staName": "고덕",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005000553,
+    "staNext": 1005000551
+  },
+  {
+    "staNum": 1005000553,
+    "staName": "상일동",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1005000552
+  },
+  {
+    "staNum": 1000000000,
+    "staName": "마천지선",
+    "staInfo": 9,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1005000548,
+    "staName": "강동",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080549,
+    "staNext": 1005000547
+  },
+  {
+    "staNum": 1005080549,
+    "staName": "둔촌동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080550,
+    "staNext": 1005000548
+  },
+  {
+    "staNum": 1005080550,
+    "staName": "올림픽공원",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080551,
+    "staNext": 1005080549
+  },
+  {
+    "staNum": 1005080551,
+    "staName": "방이",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080552,
+    "staNext": 1005080550
+  },
+  {
+    "staNum": 1005080552,
+    "staName": "오금",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080553,
+    "staNext": 1005080551
+  },
+  {
+    "staNum": 1005080553,
+    "staName": "개롱",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080554,
+    "staNext": 1005080552
+  },
+  {
+    "staNum": 1005080554,
+    "staName": "거여",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1005080555,
+    "staNext": 1005080553
+  },
+  {
+    "staNum": 1005080555,
+    "staName": "마천",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1005080554
+  }
+]

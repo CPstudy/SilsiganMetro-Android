@@ -1,0 +1,128 @@
+[
+  {
+    "staNum": 1071075250,
+    "staName": "오이도",
+    "staInfo": 2,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075251,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1071075251,
+    "staName": "달월",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075252,
+    "staNext": 1071075250
+  },
+  {
+    "staNum": 1071075252,
+    "staName": "월곶",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075253,
+    "staNext": 1071075251
+  },
+  {
+    "staNum": 1071075253,
+    "staName": "소래포구",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075254,
+    "staNext": 1071075252
+  },
+  {
+    "staNum": 1071075254,
+    "staName": "인천논현",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075255,
+    "staNext": 1071075253
+  },
+  {
+    "staNum": 1071075255,
+    "staName": "호구포",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075256,
+    "staNext": 1071075254
+  },
+  {
+    "staNum": 1071075256,
+    "staName": "남동인더스파크",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075257,
+    "staNext": 1071075255
+  },
+  {
+    "staNum": 1071075257,
+    "staName": "원인재",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075258,
+    "staNext": 1071075256
+  },
+  {
+    "staNum": 1071075258,
+    "staName": "연수",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075259,
+    "staNext": 1071075257
+  },
+  {
+    "staNum": 1071075259,
+    "staName": "송도",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1071075260,
+    "staNext": 1071075258
+  },
+  {
+    "staNum": 1071075260,
+    "staName": "인하대",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "실시간 정보 미반영",
+    "staPrev": 1071075261,
+    "staNext": 1071075259
+  },
+  {
+    "staNum": 1071075261,
+    "staName": "숭의",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "실시간 정보 미반영",
+    "staPrev": 1071075262,
+    "staNext": 1071075260
+  },
+  {
+    "staNum": 1071075262,
+    "staName": "신포",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "실시간 정보 미반영",
+    "staPrev": 1071075263,
+    "staNext": 1071075261
+  },
+  {
+    "staNum": 1071075263,
+    "staName": "인천",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "실시간 정보 미반영",
+    "staPrev": 1000000000,
+    "staNext": 1071075262
+  }
+]

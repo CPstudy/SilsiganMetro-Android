@@ -1,0 +1,524 @@
+[
+ {
+   "staNum": 1000000000,
+   "staName": "문산 - 가좌",
+   "staInfo": 9,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1063075335,
+   "staName": "문산",
+   "staInfo": 2,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075334,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1063075334,
+   "staName": "파주",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075333,
+   "staNext": 1063075335
+ },
+ {
+   "staNum": 1063075333,
+   "staName": "월롱",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075331,
+   "staNext": 1063075334
+ },
+ {
+   "staNum": 1063075331,
+   "staName": "금촌",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075330,
+   "staNext": 1063075333
+ },
+ {
+   "staNum": 1063075330,
+   "staName": "금릉",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "일부 급행 미정차",
+   "staPrev": 1063075329,
+   "staNext": 1063075331
+ },
+ {
+   "staNum": 1063075329,
+   "staName": "운정",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "일부 급행 미정차",
+   "staPrev": 1063075999,
+   "staNext": 1063075330
+ },
+ {
+   "staNum": 1063075999,
+   "staName": "야당",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "실시간 정보 미반영",
+   "staPrev": 1063075327,
+   "staNext": 1063075329
+ },
+ {
+   "staNum": 1063075327,
+   "staName": "탄현",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "일부 급행 미정차",
+   "staPrev": 1063075326,
+   "staNext": 1063075999
+ },
+ {
+   "staNum": 1063075326,
+   "staName": "일산",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075325,
+   "staNext": 1063075327
+ },
+ {
+   "staNum": 1063075325,
+   "staName": "풍산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075324,
+   "staNext": 1063075326
+ },
+ {
+   "staNum": 1063075324,
+   "staName": "백마",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075323,
+   "staNext": 1063075325
+ },
+ {
+   "staNum": 1063075323,
+   "staName": "곡산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075322,
+   "staNext": 1063075324
+ },
+ {
+   "staNum": 1063075322,
+   "staName": "대곡",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075321,
+   "staNext": 1063075323
+ },
+ {
+   "staNum": 1063075321,
+   "staName": "능곡",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075320,
+   "staNext": 1063075322
+ },
+ {
+   "staNum": 1063075320,
+   "staName": "행신",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075319,
+   "staNext": 1063075321
+ },
+ {
+   "staNum": 1063075319,
+   "staName": "강매",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075318,
+   "staNext": 1063075320
+ },
+ {
+   "staNum": 1063075318,
+   "staName": "화전",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075317,
+   "staNext": 1063075319
+ },
+ {
+   "staNum": 1063075317,
+   "staName": "수색",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075316,
+   "staNext": 1063075318
+ },
+ {
+   "staNum": 1063075316,
+   "staName": "디지털미디어시티",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075315,
+   "staNext": 1063075317
+ },
+ {
+   "staNum": 1063075315,
+   "staName": "가좌",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075314,
+   "staNext": 1063075316
+ },
+ {
+   "staNum": 1000000000,
+   "staName": "신촌 - 서울역",
+   "staInfo": 9,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1063080312,
+   "staName": "신촌",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063080313,
+   "staNext": 1063080315
+ },
+ {
+   "staNum": 1063080313,
+   "staName": "서울역",
+   "staInfo": 4,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1063080312
+ },
+ {
+   "staNum": 1000000000,
+   "staName": "홍대입구 - 용문",
+   "staInfo": 9,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1063075314,
+   "staName": "홍대입구",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075313,
+   "staNext": 1063075315
+ },
+ {
+   "staNum": 1063075313,
+   "staName": "서강대",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075312,
+   "staNext": 1063075314
+ },
+ {
+   "staNum": 1063075312,
+   "staName": "공덕",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1063075826,
+   "staNext": 1063075313
+ },
+ {
+   "staNum": 1063075826,
+   "staName": "효창공원앞",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075110,
+   "staNext": 1063075312
+ },
+ {
+   "staNum": 1063075110,
+   "staName": "용산",
+   "staInfo": 1,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1063075111,
+   "staNext": 1063075826
+ },
+ {
+   "staNum": 1063075111,
+   "staName": "이촌",
+   "staInfo": 1,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075112,
+   "staNext": 1063075110
+ },
+ {
+   "staNum": 1063075112,
+   "staName": "서빙고",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075113,
+   "staNext": 1063075111
+ },
+ {
+   "staNum": 1063075113,
+   "staName": "한남",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075114,
+   "staNext": 1063075112
+ },
+ {
+   "staNum": 1063075114,
+   "staName": "옥수",
+   "staInfo": 1,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075115,
+   "staNext": 1063075113
+ },
+ {
+   "staNum": 1063075115,
+   "staName": "응봉",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075116,
+   "staNext": 1063075114
+ },
+ {
+   "staNum": 1063075116,
+   "staName": "왕십리",
+   "staInfo": 1,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075117,
+   "staNext": 1063075115
+ },
+ {
+   "staNum": 1063075117,
+   "staName": "청량리",
+   "staInfo": 1,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075118,
+   "staNext": 1063075116
+ },
+ {
+   "staNum": 1063075118,
+   "staName": "회기",
+   "staInfo": 1,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075119,
+   "staNext": 1063075117
+ },
+ {
+   "staNum": 1063075119,
+   "staName": "중랑",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075120,
+   "staNext": 1063075118
+ },
+ {
+   "staNum": 1063075120,
+   "staName": "상봉",
+   "staInfo": 1,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075121,
+   "staNext": 1063075119
+ },
+ {
+   "staNum": 1063075121,
+   "staName": "망우",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075122,
+   "staNext": 1063075120
+ },
+ {
+   "staNum": 1063075122,
+   "staName": "양원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075123,
+   "staNext": 1063075121
+ },
+ {
+   "staNum": 1063075123,
+   "staName": "구리",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075124,
+   "staNext": 1063075122
+ },
+ {
+   "staNum": 1063075124,
+   "staName": "도농",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075125,
+   "staNext": 1063075123
+ },
+ {
+   "staNum": 1063075125,
+   "staName": "양정",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075126,
+   "staNext": 1063075124
+ },
+ {
+   "staNum": 1063075126,
+   "staName": "덕소",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075127,
+   "staNext": 1063075125
+ },
+ {
+   "staNum": 1063075127,
+   "staName": "도심",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075128,
+   "staNext": 1063075126
+ },
+ {
+   "staNum": 1063075128,
+   "staName": "팔당",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075129,
+   "staNext": 1063075127
+ },
+ {
+   "staNum": 1063075129,
+   "staName": "운길산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075130,
+   "staNext": 1063075128
+ },
+ {
+   "staNum": 1063075130,
+   "staName": "양수",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075131,
+   "staNext": 1063075129
+ },
+ {
+   "staNum": 1063075131,
+   "staName": "신원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075132,
+   "staNext": 1063075130
+ },
+ {
+   "staNum": 1063075132,
+   "staName": "국수",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075133,
+   "staNext": 1063075131
+ },
+ {
+   "staNum": 1063075133,
+   "staName": "아신",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075134,
+   "staNext": 1063075132
+ },
+ {
+   "staNum": 1063075134,
+   "staName": "오빈",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075135,
+   "staNext": 1063075133
+ },
+ {
+   "staNum": 1063075135,
+   "staName": "양평",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075136,
+   "staNext": 1063075134
+ },
+ {
+   "staNum": 1063075136,
+   "staName": "원덕",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1063075137,
+   "staNext": 1063075135
+ },
+ {
+   "staNum": 1063075137,
+   "staName": "용문",
+   "staInfo": 0,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1063075138,
+   "staNext": 1063075136
+ },
+ {
+   "staNum": 1063075138,
+   "staName": "지평",
+   "staInfo": 3,
+   "staExpress": 2,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1063075137
+ }
+]

@@ -1,0 +1,515 @@
+[
+ {
+   "staNum": 1000000000,
+   "staName": "본선",
+   "staInfo": 9,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1002000211,
+   "staName": "성수",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000210,
+   "staNext": 1002000212
+ },
+ {
+   "staNum": 1002000212,
+   "staName": "건대입구",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000211,
+   "staNext": 1002000213
+ },
+ {
+   "staNum": 1002000213,
+   "staName": "구의",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000212,
+   "staNext": 1002000214
+ },
+ {
+   "staNum": 1002000214,
+   "staName": "강변",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000213,
+   "staNext": 1002000215
+ },
+ {
+   "staNum": 1002000215,
+   "staName": "잠실나루",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000214,
+   "staNext": 1002000216
+ },
+ {
+   "staNum": 1002000216,
+   "staName": "잠실",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000215,
+   "staNext": 1002000217
+ },
+ {
+   "staNum": 1002000217,
+   "staName": "잠실새내",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000216,
+   "staNext": 1002000218
+ },
+ {
+   "staNum": 1002000218,
+   "staName": "종합운동장",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000217,
+   "staNext": 1002000219
+ },
+ {
+   "staNum": 1002000219,
+   "staName": "삼성",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000218,
+   "staNext": 1002000220
+ },
+ {
+   "staNum": 1002000220,
+   "staName": "선릉",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000219,
+   "staNext": 1002000221
+ },
+ {
+   "staNum": 1002000221,
+   "staName": "역삼",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000220,
+   "staNext": 1002000222
+ },
+ {
+   "staNum": 1002000222,
+   "staName": "강남",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000221,
+   "staNext": 1002000223
+ },
+ {
+   "staNum": 1002000223,
+   "staName": "교대",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000222,
+   "staNext": 1002000224
+ },
+ {
+   "staNum": 1002000224,
+   "staName": "서초",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000223,
+   "staNext": 1002000225
+ },
+ {
+   "staNum": 1002000225,
+   "staName": "방배",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000224,
+   "staNext": 1002000226
+ },
+ {
+   "staNum": 1002000226,
+   "staName": "사당",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000225,
+   "staNext": 1002000227
+ },
+ {
+   "staNum": 1002000227,
+   "staName": "낙성대",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000226,
+   "staNext": 1002000228
+ },
+ {
+   "staNum": 1002000228,
+   "staName": "서울대입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000227,
+   "staNext": 1002000229
+ },
+ {
+   "staNum": 1002000229,
+   "staName": "봉천",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000228,
+   "staNext": 1002000230
+ },
+ {
+   "staNum": 1002000230,
+   "staName": "신림",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000229,
+   "staNext": 1002000231
+ },
+ {
+   "staNum": 1002000231,
+   "staName": "신대방",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000230,
+   "staNext": 1002000232
+ },
+ {
+   "staNum": 1002000232,
+   "staName": "구로디지털단지",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000231,
+   "staNext": 1002000233
+ },
+ {
+   "staNum": 1002000233,
+   "staName": "대림",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000232,
+   "staNext": 1002000234
+ },
+ {
+   "staNum": 1002000234,
+   "staName": "신도림",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000233,
+   "staNext": 1002000235
+ },
+ {
+   "staNum": 1002000235,
+   "staName": "문래",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000234,
+   "staNext": 1002000236
+ },
+ {
+   "staNum": 1002000236,
+   "staName": "영등포구청",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000235,
+   "staNext": 1002000237
+ },
+ {
+   "staNum": 1002000237,
+   "staName": "당산",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000236,
+   "staNext": 1002000238
+ },
+ {
+   "staNum": 1002000238,
+   "staName": "합정",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000237,
+   "staNext": 1002000239
+ },
+ {
+   "staNum": 1002000239,
+   "staName": "홍대입구",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000238,
+   "staNext": 1002000240
+ },
+ {
+   "staNum": 1002000240,
+   "staName": "신촌",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000239,
+   "staNext": 1002000241
+ },
+ {
+   "staNum": 1002000241,
+   "staName": "이대",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000240,
+   "staNext": 1002000242
+ },
+ {
+   "staNum": 1002000242,
+   "staName": "아현",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000241,
+   "staNext": 1002000243
+ },
+ {
+   "staNum": 1002000243,
+   "staName": "충정로",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000242,
+   "staNext": 1002000201
+ },
+ {
+   "staNum": 1002000201,
+   "staName": "시청",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000243,
+   "staNext": 1002000202
+ },
+ {
+   "staNum": 1002000202,
+   "staName": "을지로입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000201,
+   "staNext": 1002000203
+ },
+ {
+   "staNum": 1002000203,
+   "staName": "을지로3가",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000202,
+   "staNext": 1002000204
+ },
+ {
+   "staNum": 1002000204,
+   "staName": "을지로4가",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000203,
+   "staNext": 1002000205
+ },
+ {
+   "staNum": 1002000205,
+   "staName": "동대문역사문화공원",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000204,
+   "staNext": 1002000206
+ },
+ {
+   "staNum": 1002000206,
+   "staName": "신당",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000205,
+   "staNext": 1002000207
+ },
+ {
+   "staNum": 1002000207,
+   "staName": "상왕십리",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000206,
+   "staNext": 1002000208
+ },
+ {
+   "staNum": 1002000208,
+   "staName": "왕십리",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000207,
+   "staNext": 1002000209
+ },
+ {
+   "staNum": 1002000209,
+   "staName": "한양대",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000208,
+   "staNext": 1002000210
+ },
+ {
+   "staNum": 1002000210,
+   "staName": "뚝섬",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000209,
+   "staNext": 1002000211
+ },
+ {
+   "staNum": 1002000211,
+   "staName": "성수",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002000210,
+   "staNext": 1002000212
+ },
+ {
+   "staNum": 1000000000,
+   "staName": "성수지선",
+   "staInfo": 9,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1102000211,
+   "staName": "성수(지선)",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1102000211
+ },
+ {
+   "staNum": 1002002111,
+   "staName": "용답",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1102000211,
+   "staNext": 1002002112
+ },
+ {
+   "staNum": 1002002112,
+   "staName": "신답",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002002111,
+   "staNext": 1002002113
+ },
+ {
+   "staNum": 1002002113,
+   "staName": "용두",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002002112,
+   "staNext": 1002002114
+ },
+ {
+   "staNum": 1002002114,
+   "staName": "신설동",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002002113,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1000000000,
+   "staName": "신정지선",
+   "staInfo": 9,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1102000234,
+   "staName": "신도림(지선)",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1102000231
+ },
+ {
+   "staNum": 1002002341,
+   "staName": "도림천",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1102000234,
+   "staNext": 1002002342
+ },
+ {
+   "staNum": 1002002342,
+   "staName": "양천구청",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002002341,
+   "staNext": 1002002343
+ },
+ {
+   "staNum": 1002002343,
+   "staName": "신정네거리",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002002342,
+   "staNext": 1002002344
+ },
+ {
+   "staNum": 1002002344,
+   "staName": "까치산",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1002002343,
+   "staNext": 1000000000
+ }
+]

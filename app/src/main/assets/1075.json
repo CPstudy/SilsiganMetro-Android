@@ -1,0 +1,326 @@
+[
+  {
+    "staNum": 1075075210,
+    "staName": "왕십리",
+    "staInfo": 2,
+    "staExpress": 1,
+    "staSubText": "왕십리 - 죽전 각 역 정차",
+    "staPrev": 1075075211,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1075075211,
+    "staName": "서울숲",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075212,
+    "staNext": 1075075210
+  },
+  {
+    "staNum": 1075075212,
+    "staName": "압구정로데오",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075213,
+    "staNext": 1075075211
+  },
+  {
+    "staNum": 1075075213,
+    "staName": "강남구청",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075214,
+    "staNext": 1075075212
+  },
+  {
+    "staNum": 1075075214,
+    "staName": "선정릉",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075215,
+    "staNext": 1075075213
+  },
+  {
+    "staNum": 1075075215,
+    "staName": "선릉",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075216,
+    "staNext": 1075075214
+  },
+  {
+    "staNum": 1075075216,
+    "staName": "한티",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075217,
+    "staNext": 1075075215
+  },
+  {
+    "staNum": 1075075217,
+    "staName": "도곡",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075218,
+    "staNext": 1075075216
+  },
+  {
+    "staNum": 1075075218,
+    "staName": "구룡",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075219,
+    "staNext": 1075075217
+  },
+  {
+    "staNum": 1075075219,
+    "staName": "개포동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075220,
+    "staNext": 1075075218
+  },
+  {
+    "staNum": 1075075220,
+    "staName": "대모산입구",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075221,
+    "staNext": 1075075219
+  },
+  {
+    "staNum": 1075075221,
+    "staName": "수서",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075222,
+    "staNext": 1075075220
+  },
+  {
+    "staNum": 1075075222,
+    "staName": "복정",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075223,
+    "staNext": 1075075221
+  },
+  {
+    "staNum": 1075075223,
+    "staName": "가천대",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075224,
+    "staNext": 1075075222
+  },
+  {
+    "staNum": 1075075224,
+    "staName": "태평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075225,
+    "staNext": 1075075223
+  },
+  {
+    "staNum": 1075075225,
+    "staName": "모란",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075226,
+    "staNext": 1075075224
+  },
+  {
+    "staNum": 1075075226,
+    "staName": "야탑",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075227,
+    "staNext": 1075075225
+  },
+  {
+    "staNum": 1075075227,
+    "staName": "이매",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075228,
+    "staNext": 1075075226
+  },
+  {
+    "staNum": 1075075228,
+    "staName": "서현",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075229,
+    "staNext": 1075075227
+  },
+  {
+    "staNum": 1075075229,
+    "staName": "수내",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075230,
+    "staNext": 1075075228
+  },
+  {
+    "staNum": 1075075230,
+    "staName": "정자",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075231,
+    "staNext": 1075075229
+  },
+  {
+    "staNum": 1075075231,
+    "staName": "미금",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075232,
+    "staNext": 1075075230
+  },
+  {
+    "staNum": 1075075232,
+    "staName": "오리",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075233,
+    "staNext": 1075075231
+  },
+  {
+    "staNum": 1075075233,
+    "staName": "죽전",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": "왕십리 - 죽전 각 역 정차",
+    "staPrev": 1075075234,
+    "staNext": 1075075232
+  },
+  {
+    "staNum": 1075075234,
+    "staName": "보정",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075235,
+    "staNext": 1075075233
+  },
+  {
+    "staNum": 1075075235,
+    "staName": "구성",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075236,
+    "staNext": 1075075234
+  },
+  {
+    "staNum": 1075075236,
+    "staName": "신갈",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075237,
+    "staNext": 1075075235
+  },
+  {
+    "staNum": 1075075237,
+    "staName": "기흥",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": "",
+    "staPrev": 1075075238,
+    "staNext": 1075075236
+  },
+  {
+    "staNum": 1075075238,
+    "staName": "상갈",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075239,
+    "staNext": 1075075237
+  },
+  {
+    "staNum": 1075075239,
+    "staName": "청명",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075240,
+    "staNext": 1075075238
+  },
+  {
+    "staNum": 1075075240,
+    "staName": "영통",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075241,
+    "staNext": 1075075239
+  },
+  {
+    "staNum": 1075075241,
+    "staName": "망포",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": "",
+    "staPrev": 1075075242,
+    "staNext": 1075075240
+  },
+  {
+    "staNum": 1075075242,
+    "staName": "매탄권선",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075243,
+    "staNext": 1075075241
+  },
+  {
+    "staNum": 1075075243,
+    "staName": "수원시청",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": "",
+    "staPrev": 1075075244,
+    "staNext": 1075075242
+  },
+  {
+    "staNum": 1075075244,
+    "staName": "매교",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1075075255,
+    "staNext": 1075075243
+  },
+  {
+    "staNum": 1075075255,
+    "staName": "수원",
+    "staInfo": 3,
+    "staExpress": 1,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1075075244
+  }
+]

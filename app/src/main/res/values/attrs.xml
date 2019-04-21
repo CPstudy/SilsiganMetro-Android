@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="string" name="text"/>
+
+    <declare-styleable name="StrokeTextView">
+        <attr format="boolean" name="textStroke"/>
+        <attr format="float" name="textStrokeWidth"/>
+        <attr format="color" name="textStrokeColor"/>
+    </declare-styleable>
+
+    <declare-styleable name="TrainIcon">
+        <attr format="boolean" name="flip"/>
+        <attr name="text"/>
+    </declare-styleable>
+
+    <declare-styleable name="CustomTitlebar">
+        <attr name="text"/>
+        <attr name="backButton" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="MiniTrain">
+        <attr format="integer" name="updown">
+            <enum name="up" value="0"/>
+            <enum name="down" value="1"/>
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="SettingItem">
+        <attr format="integer" name="textVisibility">
+            <enum name="visible" value="0x00000000"/>
+            <enum name="invisible" value="0x00000004"/>
+            <enum name="gone" value="0x00000008"/>
+        </attr>
+
+        <attr format="integer" name="subTextVisibility">
+            <enum name="visible" value="0x00000000"/>
+            <enum name="invisible" value="0x00000004"/>
+            <enum name="gone" value="0x00000008"/>
+        </attr>
+
+        <attr name="text"/>
+        <attr name="subText" format="string"/>
+    </declare-styleable>
+</resources>

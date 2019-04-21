@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "75484215440",
+    "firebase_url": "https://silsiganmetro.firebaseio.com",
+    "project_id": "silsiganmetro",
+    "storage_bucket": "silsiganmetro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:75484215440:android:e553b9b249d98871",
+        "android_client_info": {
+          "package_name": "com.ganada.silsiganmetro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "75484215440-ru3rch7j6ma1df4aaftp9i97ibmkmrk4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyXOdlAWpxroHX01dDqfZIbcU0l7RFH7Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

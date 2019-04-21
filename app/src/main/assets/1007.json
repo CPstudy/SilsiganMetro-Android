@@ -1,0 +1,461 @@
+[
+ {
+   "staNum": 1007000709,
+   "staName": "장암",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000710,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1007000710,
+   "staName": "도봉산",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000711,
+   "staNext": 1007000709
+ },
+ {
+   "staNum": 1007000711,
+   "staName": "수락산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000712,
+   "staNext": 1007000710
+ },
+ {
+   "staNum": 1007000712,
+   "staName": "마들",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000713,
+   "staNext": 1007000711
+ },
+ {
+   "staNum": 1007000713,
+   "staName": "노원",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000714,
+   "staNext": 1007000712
+ },
+ {
+   "staNum": 1007000714,
+   "staName": "중계",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000715,
+   "staNext": 1007000713
+ },
+ {
+   "staNum": 1007000715,
+   "staName": "하계",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000716,
+   "staNext": 1007000714
+ },
+ {
+   "staNum": 1007000716,
+   "staName": "공릉",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000717,
+   "staNext": 1007000715
+ },
+ {
+   "staNum": 1007000717,
+   "staName": "태릉입구",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000718,
+   "staNext": 1007000716
+ },
+ {
+   "staNum": 1007000718,
+   "staName": "먹골",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000719,
+   "staNext": 1007000717
+ },
+ {
+   "staNum": 1007000719,
+   "staName": "중화",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000720,
+   "staNext": 1007000718
+ },
+ {
+   "staNum": 1007000720,
+   "staName": "상봉",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000721,
+   "staNext": 1007000719
+ },
+ {
+   "staNum": 1007000721,
+   "staName": "면목",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000722,
+   "staNext": 1007000720
+ },
+ {
+   "staNum": 1007000722,
+   "staName": "사가정",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000723,
+   "staNext": 1007000721
+ },
+ {
+   "staNum": 1007000723,
+   "staName": "용마산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000724,
+   "staNext": 1007000722
+ },
+ {
+   "staNum": 1007000724,
+   "staName": "중곡",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000725,
+   "staNext": 1007000723
+ },
+ {
+   "staNum": 1007000725,
+   "staName": "군자",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000726,
+   "staNext": 1007000724
+ },
+ {
+   "staNum": 1007000726,
+   "staName": "어린이대공원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000727,
+   "staNext": 1007000725
+ },
+ {
+   "staNum": 1007000727,
+   "staName": "건대입구",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000728,
+   "staNext": 1007000726
+ },
+ {
+   "staNum": 1007000728,
+   "staName": "뚝섬유원지",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000729,
+   "staNext": 1007000727
+ },
+ {
+   "staNum": 1007000729,
+   "staName": "청담",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000730,
+   "staNext": 1007000728
+ },
+ {
+   "staNum": 1007000730,
+   "staName": "강남구청",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000731,
+   "staNext": 1007000729
+ },
+ {
+   "staNum": 1007000731,
+   "staName": "학동",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000732,
+   "staNext": 1007000730
+ },
+ {
+   "staNum": 1007000732,
+   "staName": "논현",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000733,
+   "staNext": 1007000731
+ },
+ {
+   "staNum": 1007000733,
+   "staName": "반포",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000734,
+   "staNext": 1007000732
+ },
+ {
+   "staNum": 1007000734,
+   "staName": "고속터미널",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000735,
+   "staNext": 1007000733
+ },
+ {
+   "staNum": 1007000735,
+   "staName": "내방",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000736,
+   "staNext": 1007000734
+ },
+ {
+   "staNum": 1007000736,
+   "staName": "이수",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000737,
+   "staNext": 1007000735
+ },
+ {
+   "staNum": 1007000737,
+   "staName": "남성",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000738,
+   "staNext": 1007000736
+ },
+ {
+   "staNum": 1007000738,
+   "staName": "숭실대입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000739,
+   "staNext": 1007000737
+ },
+ {
+   "staNum": 1007000739,
+   "staName": "상도",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000740,
+   "staNext": 1007000738
+ },
+ {
+   "staNum": 1007000740,
+   "staName": "장승배기",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000741,
+   "staNext": 1007000739
+ },
+ {
+   "staNum": 1007000741,
+   "staName": "신대방삼거리",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000742,
+   "staNext": 1007000740
+ },
+ {
+   "staNum": 1007000742,
+   "staName": "보라매",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000743,
+   "staNext": 1007000741
+ },
+ {
+   "staNum": 1007000743,
+   "staName": "신풍",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000744,
+   "staNext": 1007000742
+ },
+ {
+   "staNum": 1007000744,
+   "staName": "대림",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000745,
+   "staNext": 1007000743
+ },
+ {
+   "staNum": 1007000745,
+   "staName": "남구로",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000746,
+   "staNext": 1007000744
+ },
+ {
+   "staNum": 1007000746,
+   "staName": "가산디지털단지",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000747,
+   "staNext": 1007000745
+ },
+ {
+   "staNum": 1007000747,
+   "staName": "철산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000748,
+   "staNext": 1007000746
+ },
+ {
+   "staNum": 1007000748,
+   "staName": "광명사거리",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000749,
+   "staNext": 1007000747
+ },
+ {
+   "staNum": 1007000749,
+   "staName": "천왕",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000750,
+   "staNext": 1007000748
+ },
+ {
+   "staNum": 1007000750,
+   "staName": "온수",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000751,
+   "staNext": 1007000749
+ },
+ {
+   "staNum": 1007000751,
+   "staName": "까치울",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000752,
+   "staNext": 1007000750
+ },
+ {
+   "staNum": 1007000752,
+   "staName": "부천종합운동장",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000753,
+   "staNext": 1007000751
+ },
+ {
+   "staNum": 1007000753,
+   "staName": "춘의",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000754,
+   "staNext": 1007000752
+ },
+ {
+   "staNum": 1007000754,
+   "staName": "신중동",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000755,
+   "staNext": 1007000753
+ },
+ {
+   "staNum": 1007000755,
+   "staName": "부천시청",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000756,
+   "staNext": 1007000754
+ },
+ {
+   "staNum": 1007000756,
+   "staName": "상동",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000757,
+   "staNext": 1007000755
+ },
+ {
+   "staNum": 1007000757,
+   "staName": "삼산체육관",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000758,
+   "staNext": 1007000756
+ },
+ {
+   "staNum": 1007000758,
+   "staName": "굴포천",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1007000759,
+   "staNext": 1007000757
+ },
+ {
+   "staNum": 1007000759,
+   "staName": "부평구청",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1007000758
+ }
+]

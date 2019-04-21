@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:st="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/layout_back"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/old_list_back">
+
+	<View
+		android:id="@+id/view_divider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_alignParentBottom="true"
+		android:background="@color/lab_divider"
+		android:visibility="gone"/>
+
+	<TextView
+		android:id="@+id/txt_route"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginStart="@dimen/margin_station"
+		android:layout_marginTop="@dimen/margin_small"
+		android:layout_marginBottom="@dimen/margin_small"
+		android:visibility="gone"
+		android:text="소요산-구로"
+		android:textSize="@dimen/lab_txt_sep"
+		android:textColor="@color/lab_station"/>
+
+	<RelativeLayout
+		android:id="@+id/layout_station"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginStart="@dimen/margin_station">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<com.ganada.silsiganmetro.view.StrokeTextView
+					android:id="@+id/txt_station"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginEnd="@dimen/margin_small"
+					android:text="@string/station"
+					android:textColor="@color/old_txt_station"
+					android:textSize="@dimen/txt_station"
+					st:textStroke="true"
+					st:textStrokeWidth="3.0"
+					st:textStrokeColor="@color/lab_background"/>
+
+				<ImageView
+					android:id="@+id/img_icon_express"
+					android:layout_width="@dimen/icon_express"
+					android:layout_height="@dimen/icon_express"
+					android:layout_marginEnd="@dimen/margin_small"
+					android:src="@drawable/img_express"
+					android:scaleType="centerCrop"/>
+
+				<ImageView
+					android:id="@+id/img_icon_express1"
+					android:layout_width="@dimen/icon_express"
+					android:layout_height="@dimen/icon_express"
+					android:src="@drawable/img_express2"
+					android:scaleType="centerCrop"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/txt_station_sub"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left|center"
+				android:gravity="left"
+				android:text="@string/station_sub"
+				android:textColor="@color/old_txt_subtext"
+				android:textSize="@dimen/lab_txt_statation_sub"/>
+
+		</LinearLayout>
+	</RelativeLayout>
+
+	<RelativeLayout
+		android:id="@+id/layout_train"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_alignParentEnd="true"
+		android:layout_centerVertical="true"
+		android:layout_marginEnd="@dimen/margin_train">
+
+		<RelativeLayout
+			android:id="@+id/layout_line"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_centerHorizontal="true">
+
+			<RelativeLayout
+				android:layout_width="30dp"
+				android:layout_height="match_parent"
+				android:visibility="gone">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<View
+						android:id="@+id/view_line5"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+
+					<View
+						android:id="@+id/view_line6"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+				</LinearLayout>
+
+				<ImageView
+					android:id="@+id/icon_station_down_express"
+					android:layout_width="@dimen/lab_icon_station"
+					android:layout_height="@dimen/lab_icon_station"
+					android:layout_centerInParent="true"
+					android:src="@drawable/icon_1002_norm"/>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="30dp"
+				android:layout_height="match_parent">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<View
+						android:id="@+id/view_line1"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+
+					<View
+						android:id="@+id/view_line2"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+				</LinearLayout>
+
+				<ImageView
+					android:id="@+id/icon_station_down_norm"
+					android:layout_width="@dimen/lab_icon_station"
+					android:layout_height="@dimen/lab_icon_station"
+					android:layout_centerInParent="true"
+					android:src="@drawable/icon_1002_norm"/>
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="30dp"
+				android:layout_height="match_parent"
+				android:layout_marginStart="83dp"
+				android:visibility="gone">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<View
+						android:id="@+id/view_line3"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+
+					<View
+						android:id="@+id/view_line4"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+				</LinearLayout>
+
+				<ImageView
+					android:id="@+id/icon_station_up_norm"
+					android:layout_width="@dimen/lab_icon_station"
+					android:layout_height="@dimen/lab_icon_station"
+					android:layout_centerInParent="true"
+					android:src="@drawable/icon_1002_norm"/>
+
+			</RelativeLayout>
+
+			<RelativeLayout
+				android:layout_width="30dp"
+				android:layout_height="match_parent"
+				android:layout_marginStart="148.5dp"
+				android:visibility="gone">
+
+				<LinearLayout
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<View
+						android:id="@+id/view_line7"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+
+					<View
+						android:id="@+id/view_line8"
+						android:layout_width="2dp"
+						android:layout_height="0dp"
+						android:layout_weight="1"
+						android:background="#33a23d"/>
+				</LinearLayout>
+
+				<ImageView
+					android:id="@+id/icon_station_up_express"
+					android:layout_width="@dimen/lab_icon_station"
+					android:layout_height="@dimen/lab_icon_station"
+					android:layout_centerInParent="true"
+					android:src="@drawable/icon_1002_norm"/>
+
+			</RelativeLayout>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:id="@+id/img_train_down_norm"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="55dp"
+			android:layout_centerVertical="true">
+
+			<ImageView
+				android:id="@+id/img_icon_down_norm"
+				android:layout_width="50dp"
+				android:layout_height="match_parent"
+				android:layout_centerVertical="true"
+				android:layout_centerInParent="true"
+				android:padding="2dp"
+				android:src="@drawable/train_down"
+				android:scaleType="centerInside"/>
+
+			<com.ganada.silsiganmetro.view.StrokeTextView
+				android:id="@+id/train_down_norm"
+				android:layout_width="55dp"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:gravity="center"
+				android:text="@string/train_info"
+				android:textColor="@color/old_txt_train"
+				android:textSize="@dimen/txt_train"
+				st:textStroke="true"
+				st:textStrokeWidth="1.0"
+				st:textStrokeColor="@color/old_txt_stroke_color"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:id="@+id/img_train_down_express"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true">
+
+			<ImageView
+				android:id="@+id/img_icon_down_express"
+				android:layout_width="50dp"
+				android:layout_height="match_parent"
+				android:layout_centerInParent="true"
+				android:padding="2dp"
+				android:src="@drawable/train_down"
+				android:scaleType="centerInside"/>
+
+			<com.ganada.silsiganmetro.view.StrokeTextView
+				android:id="@+id/train_down_express"
+				android:layout_width="55dp"
+				android:layout_height="wrap_content"
+				android:layout_centerInParent="true"
+				android:gravity="center"
+				android:text="@string/train_info"
+				android:textColor="@color/old_txt_train"
+				android:textSize="@dimen/txt_train"
+				st:textStroke="true"
+				st:textStrokeWidth="1.0"
+				st:textStrokeColor="@color/old_txt_stroke_color"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:id="@+id/img_train_up_norm"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="130dp"
+			android:layout_centerVertical="true">
+
+			<ImageView
+				android:id="@+id/img_icon_up_norm"
+				android:layout_width="50dp"
+				android:layout_height="match_parent"
+				android:layout_centerInParent="true"
+				android:padding="2dp"
+				android:src="@drawable/train_up"
+				android:scaleType="centerInside"/>
+
+			<com.ganada.silsiganmetro.view.StrokeTextView
+				android:id="@+id/train_up_norm"
+				android:layout_width="55dp"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:gravity="center"
+				android:text="@string/train_info"
+				android:textColor="@color/old_txt_train"
+				android:textSize="@dimen/txt_train"
+				st:textStroke="true"
+				st:textStrokeWidth="1.0"
+				st:textStrokeColor="@color/old_txt_stroke_color"/>
+
+		</RelativeLayout>
+
+		<RelativeLayout
+			android:id="@+id/img_train_up_express"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="180dp"
+			android:layout_centerVertical="true">
+
+			<ImageView
+				android:id="@+id/img_icon_up_express"
+				android:layout_width="50dp"
+				android:layout_height="match_parent"
+				android:layout_centerInParent="true"
+				android:padding="2dp"
+				android:src="@drawable/train_up"
+				android:scaleType="centerInside"/>
+
+			<com.ganada.silsiganmetro.view.StrokeTextView
+				android:id="@+id/train_up_express"
+				android:layout_width="55dp"
+				android:layout_height="wrap_content"
+				android:layout_centerVertical="true"
+				android:gravity="center"
+				android:text="@string/train_info"
+				android:textColor="@color/old_txt_train"
+				android:textSize="@dimen/txt_train"
+				st:textStroke="true"
+				st:textStrokeWidth="1.0"
+				st:textStrokeColor="@color/old_txt_stroke_color"/>
+
+		</RelativeLayout>
+	</RelativeLayout>
+</RelativeLayout>

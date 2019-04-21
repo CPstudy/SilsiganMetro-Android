@@ -1,0 +1,119 @@
+[
+  {
+    "staNum": 1077000687,
+    "staName": "강남",
+    "staInfo": 2,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077000688,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1077000688,
+    "staName": "양재",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077000689,
+    "staNext": 1077000687
+  },
+  {
+    "staNum": 1077000689,
+    "staName": "양재시민의숲",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006810,
+    "staNext": 1077000688
+  },
+  {
+    "staNum": 1077006810,
+    "staName": "청계산입구",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006811,
+    "staNext": 1077000689
+  },
+  {
+    "staNum": 1077006811,
+    "staName": "판교",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006812,
+    "staNext": 1077006810
+  },
+  {
+    "staNum": 1077006812,
+    "staName": "정자",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006813,
+    "staNext": 1077006811
+  },
+  {
+    "staNum": 1077006813,
+    "staName": "미금",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "실시간 정보 미반영 / 미개통",
+    "staPrev": 1077006814,
+    "staNext": 1077006812
+  },
+  {
+    "staNum": 1077006814,
+    "staName": "동천",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006815,
+    "staNext": 1077006813
+  },
+  {
+    "staNum": 1077006815,
+    "staName": "수지구청",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006816,
+    "staNext": 1077006814
+  },
+  {
+    "staNum": 1077006816,
+    "staName": "성복",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006817,
+    "staNext": 1077006815
+  },
+  {
+    "staNum": 1077006817,
+    "staName": "상현",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006818,
+    "staNext": 1077006816
+  },
+  {
+    "staNum": 1077006818,
+    "staName": "광교중앙",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1077006819,
+    "staNext": 1077006817
+  },
+  {
+    "staNum": 1077006819,
+    "staName": "광교",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1077006818
+  }
+]

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:background="@color/lab_sep"
+	android:orientation="vertical">
+
+	<com.ganada.silsiganmetro.view.CustomTitlebar
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:background="@color/colorPrimary"
+		app:text="설정" />
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:scrollbars="none"
+		android:fadingEdge="none">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:paddingLeft="@dimen/margin_small"
+			android:paddingRight="@dimen/margin_small"
+			android:orientation="vertical">
+
+			<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="@dimen/margin_small"
+				android:padding="@dimen/margin_small"
+				android:background="@drawable/item_main_bg">
+
+				<LinearLayout
+					android:id="@+id/layoutLogin"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<com.nhn.android.naverlogin.ui.view.OAuthLoginButton
+						android:id="@+id/buttonOAuthLoginImg"
+						android:layout_width="wrap_content"
+						android:layout_height="50dp"
+						app:layout_constraintBottom_toBottomOf="parent"
+						app:layout_constraintStart_toStartOf="parent" />
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/layoutSuccess"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:gravity="center"
+					android:visibility="invisible">
+
+					<TextView
+						android:id="@+id/txtID"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:text="aaa@naver.com"
+						android:textSize="18sp"
+						android:textColor="@color/lab_station"/>
+
+				</LinearLayout>
+
+			</FrameLayout>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnLogin"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="로그인"
+				app:subText="1호선"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnFavorite"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="첫 화면 설정"
+				app:subText="1호선"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnLine1"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="1호선 순서"
+				app:subText="경부선 먼저"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnRefresh"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="새로고침 시간"
+				app:subText="사용 안 함"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnTheme"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="화면 설정"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnSort"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="메인 화면 순서"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/btnFavSort"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="모아보기 순서"/>
+
+			<View
+				android:layout_width="match_parent"
+				android:layout_height="@dimen/margin_default"/>
+
+            <com.ganada.silsiganmetro.view.SettingItem
+                android:id="@+id/btnLab"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+				android:visibility="gone"
+                app:text="실험실"/>
+
+			<com.ganada.silsiganmetro.view.SettingItem
+				android:id="@+id/settingTest"
+				android:layout_width="match_parent"
+				android:layout_height="50dp"
+				android:layout_marginTop="5dp"
+				app:text="테스트"
+				app:subText="테스트"/>
+
+            <com.ganada.silsiganmetro.view.SettingItem
+                android:id="@+id/btnVersion"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                app:text="버전 및 새로운 기능"
+				app:subText="@string/str_version"/>
+
+            <com.ganada.silsiganmetro.view.SettingItem
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                app:text="열차 위치 출처"
+                app:subText="서울 열린데이터 광장"/>
+
+            <com.ganada.silsiganmetro.view.SettingItem
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                app:text="열차 상세 정보 출처"
+                app:subText="오글로리"/>
+
+            <com.ganada.silsiganmetro.view.SettingItem
+                android:id="@+id/btnOpen"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                app:text="오픈소스 정보"/>
+
+			<LinearLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:padding="10dp"
+				android:background="@drawable/item_main_bg"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="10dp"
+				android:orientation="vertical">
+
+				<Button
+					style="?android:attr/borderlessButtonStyle"
+					android:id="@+id/btnMail"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:background="@drawable/item_main_bg"
+					android:text="문의 메일 보내기"
+					android:textColor="@color/item_subtext"/>
+
+				<Button
+					style="?android:attr/borderlessButtonStyle"
+					android:id="@+id/btnNeed"
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content"
+					android:layout_alignParentBottom="true"
+					android:layout_marginTop="10dp"
+					android:background="@drawable/item_main_bg"
+					android:text="추가 기능 건의"
+					android:textColor="@color/item_subtext"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</ScrollView>
+
+
+</LinearLayout>

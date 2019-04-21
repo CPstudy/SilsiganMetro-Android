@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutBack"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/lab_divider">
+
+    <TextView
+        android:id="@+id/txtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:text="소요산-구로"
+        android:textSize="@dimen/lab_txt_sep"
+        android:textColor="@color/lab_station"/>
+
+</RelativeLayout>

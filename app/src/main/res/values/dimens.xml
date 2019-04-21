@@ -1,0 +1,56 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="margin_tiny">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_station">12dp</dimen>
+    <dimen name="margin_default">16dp</dimen>
+    <dimen name="margin_train">5.5dp</dimen>
+    <dimen name="status">25dp</dimen>
+    <dimen name="btn_back">35dp</dimen>
+    <dimen name="btn_setting">40dp</dimen>
+    <dimen name="radius_large">6dp</dimen>
+    <dimen name="radius_small">3dp</dimen>
+
+    <dimen name="txt_station_small">15sp</dimen>
+    <dimen name="txt_station">18sp</dimen>
+    <dimen name="txt_station_medium">20sp</dimen>
+    <dimen name="txt_station_large">21sp</dimen>
+
+    <dimen name="txt_train_small">8sp</dimen>
+    <dimen name="txt_train">11sp</dimen>
+    <dimen name="txt_train_large">15sp</dimen>
+
+
+    <dimen name="txt_title">20sp</dimen>
+    <dimen name="txt_item">18sp</dimen>
+    <dimen name="txt_sub">15sp</dimen>
+
+    <dimen name="txt_toast">15sp</dimen>
+
+    <dimen name="icon_express">14dp</dimen>
+
+    <!-- old version -->
+
+    <!-- lab -->
+    <dimen name="lab_txt_station">16sp</dimen>
+    <dimen name="lab_txt_statation_sub">10sp</dimen>
+    <dimen name="lab_txt_sep">12sp</dimen>
+    <dimen name="lab_txt_train">11sp</dimen>
+    <dimen name="lab_icon_station">8dp</dimen>
+    <dimen name="lab_list">66dp</dimen>
+    <dimen name="lab_icon_train">50dp</dimen>
+
+    <!-- favorate activity -->
+    <dimen name="fab_padding">5dp</dimen>
+    <dimen name="fab_icon_size_large">12dp</dimen>
+    <dimen name="fab_icon_size_default">10dp</dimen>
+    <dimen name="fab_icon_size_small">8dp</dimen>
+    <dimen name="fab_icon_margin">50dp</dimen>
+    <dimen name="fab_line_size">3dp</dimen>
+    <dimen name="fab_txt_train">12sp</dimen>
+    <dimen name="fab_station">18sp</dimen>
+    <dimen name="fab_status">16sp</dimen>
+    <dimen name="fab_status_big">22sp</dimen>
+    <dimen name="fab_next">13sp</dimen>
+    <dimen name="fab_height">35dp</dimen>
+</resources>

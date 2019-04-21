@@ -1,0 +1,695 @@
+[
+  {
+    "staNum": 1000000000,
+    "staName": "소요산 - 구로",
+    "staInfo": 9,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000100,
+    "staName": "소요산",
+    "staInfo": 2,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000101,
+    "staName": "동두천",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000102,
+    "staName": "보산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000103,
+    "staName": "동두천중앙",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000104,
+    "staName": "지행",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000105,
+    "staName": "덕정",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000106,
+    "staName": "덕계",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000107,
+    "staName": "양주",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000108,
+    "staName": "녹양",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000109,
+    "staName": "가능",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000110,
+    "staName": "의정부",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000111,
+    "staName": "회룡",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000112,
+    "staName": "망월사",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000113,
+    "staName": "도봉산",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000114,
+    "staName": "도봉",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000115,
+    "staName": "방학",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000116,
+    "staName": "창동",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000117,
+    "staName": "녹천",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000118,
+    "staName": "월계",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000119,
+    "staName": "광운대",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": "광운대 - 서울역 각 역 정차"
+  },
+  {
+    "staNum": 1001000120,
+    "staName": "석계",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000121,
+    "staName": "신이문",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000122,
+    "staName": "외대앞",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000123,
+    "staName": "회기",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000124,
+    "staName": "청량리",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000125,
+    "staName": "제기동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000126,
+    "staName": "신설동",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000127,
+    "staName": "동묘앞",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000128,
+    "staName": "동대문",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000129,
+    "staName": "종로5가",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000130,
+    "staName": "종로3가",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000131,
+    "staName": "종각",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000132,
+    "staName": "시청",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000133,
+    "staName": "서울역",
+    "staInfo": 1,
+    "staExpress": 3,
+    "staSubText": "소요산 - 인천 / 서울역 - 천안 급행"
+  },
+  {
+    "staNum": 1001000134,
+    "staName": "남영",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000135,
+    "staName": "용산",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000136,
+    "staName": "노량진",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000137,
+    "staName": "대방",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000138,
+    "staName": "신길",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000139,
+    "staName": "영등포",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": "서울역 >> 천안 급행 미정차"
+  },
+  {
+    "staNum": 1001000140,
+    "staName": "신도림",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": "영등포 급행 미정차"
+  },
+  {
+    "staNum": 1001000141,
+    "staName": "구로",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": "영등포 급행 미정차"
+  },
+    {
+    "staNum": 1000000000,
+    "staName": "경인선(구일 - 인천)",
+    "staInfo": 9,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000142,
+    "staName": "구일",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000143,
+    "staName": "개봉",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000144,
+    "staName": "오류동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000145,
+    "staName": "온수",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000146,
+    "staName": "역곡",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000147,
+    "staName": "소사",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000148,
+    "staName": "부천",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000149,
+    "staName": "중동",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000150,
+    "staName": "송내",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000151,
+    "staName": "부개",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000152,
+    "staName": "부평",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000153,
+    "staName": "백운",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000154,
+    "staName": "동암",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000155,
+    "staName": "간석",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000156,
+    "staName": "주안",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000157,
+    "staName": "도화",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000158,
+    "staName": "제물포",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000159,
+    "staName": "도원",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000160,
+    "staName": "동인천",
+    "staInfo": 0,
+    "staExpress": 1,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001000161,
+    "staName": "인천",
+    "staInfo": 4,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1000000000,
+    "staName": "경부선(가산디지털단지 - 신창)",
+    "staInfo": 9,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080142,
+    "staName": "가산디지털단지",
+    "staInfo": 1,
+    "staExpress": 1,
+    "staSubText": "영등포 급행 미정차"
+  },
+  {
+    "staNum": 1001080143,
+    "staName": "독산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "영등포 급행 미정차"
+  },
+  {
+    "staNum": 1001080144,
+    "staName": "금천구청",
+    "staInfo": 1,
+    "staExpress": 2,
+    "staSubText": "영등포 급행 미정차"
+  },
+  {
+    "staNum": 1001080145,
+    "staName": "석수",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "영등포 급행 미정차"
+  },
+  {
+    "staNum": 1001080146,
+    "staName": "관악",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "영등포 급행 미정차"
+  },
+  {
+    "staNum": 1001080147,
+    "staName": "안양",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": "휴일 급행 미정차"
+  },
+  {
+    "staNum": 1001080148,
+    "staName": "명학",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080149,
+    "staName": "금정",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080150,
+    "staName": "군포",
+    "staInfo": 0,
+    "staExpress": 2,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080151,
+    "staName": "당정",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080152,
+    "staName": "의왕",
+    "staInfo": 0,
+    "staExpress": 2,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080153,
+    "staName": "성균관대",
+    "staInfo": 0,
+    "staExpress": 2,
+    "staSubText": "서울역 >> 천안 급행 아침 한정"
+  },
+  {
+    "staNum": 1001080154,
+    "staName": "화서",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080155,
+    "staName": "수원",
+    "staInfo": 1,
+    "staExpress": 3,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080156,
+    "staName": "세류",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080157,
+    "staName": "병점",
+    "staInfo": 1,
+    "staExpress": 3,
+    "staSubText": "휴일 급행 미정차"
+  },
+  {
+    "staNum": 1001080158,
+    "staName": "세마",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080159,
+    "staName": "오산대",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080160,
+    "staName": "오산",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": "휴일 급행 미정차"
+  },
+  {
+    "staNum": 1001080161,
+    "staName": "진위",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080162,
+    "staName": "송탄",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080163,
+    "staName": "서정리",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": "휴일 급행 미정차"
+  },
+  {
+    "staNum": 1001080164,
+    "staName": "지제",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080165,
+    "staName": "평택",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080166,
+    "staName": "성환",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": "휴일 급행 미정차"
+  },
+  {
+    "staNum": 1001080167,
+    "staName": "직산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080168,
+    "staName": "두정",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080169,
+    "staName": "천안",
+    "staInfo": 0,
+    "staExpress": 3,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080170,
+    "staName": "봉명",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080171,
+    "staName": "쌍용",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080172,
+    "staName": "아산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080173,
+    "staName": "배방",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080174,
+    "staName": "온양온천",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": ""
+  },
+  {
+    "staNum": 1001080175,
+    "staName": "신창",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": ""
+  }
+]

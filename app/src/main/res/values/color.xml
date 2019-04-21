@@ -1,0 +1,107 @@
+<!--?xml version="1.0" encoding="utf-8"?-->
+<resources>
+	<color name="colorPrimary">#91be2e</color>
+	<color name="stroke_green">#7fa727</color>
+	<color name="background">#0f151b</color>
+	<color name="listbg">#0f151b</color>
+	<color name="list_train_bg">#0f151b</color>
+	<color name="list_train_fa">#286596</color>
+	<color name="lightbg">#181f2e</color>
+	<color name="dragndrop_background">#FF0000</color>
+	<color name="color_fa">#EEEEEE</color>
+	<color name="ripple">#30000000</color>
+	<color name="station">#eeeeee</color>
+	<color name="trainText">#eeeeee</color>
+
+	<color name="toast_background">#172439</color>
+	<color name="toast_stroke">#11161a</color>
+	<color name="txt_toast">#dedede</color>
+
+    <!-- old color -->
+    <color name="old_list_back">#0d151b</color>
+    <color name="old_txt_station">#eeeeee</color>
+    <color name="old_txt_subtext">#7b7b7b</color>
+    <color name="old_txt_train">#eeeeee</color>
+	<color name="old_txt_stroke_color">#0d151b</color>
+	<color name="old_footer_back">#181f2e</color>
+	<color name="old_highlight">#4b2929</color>
+
+	<!-- new color -->
+	<color name="item_back">#e6e8eb</color>
+	<color name="item_background">#f9f9f9</color>
+	<color name="item_station">#545454</color>
+	<color name="item_train">#545454</color>
+	<color name="item_sep">#e6e8eb</color>
+	<color name="item_divider">#f0f0f0</color>
+	<color name="item_title">#484848</color>
+	<color name="item_text">#7b7b7b</color>
+	<color name="item_subtext">#7b7b7b</color>
+	<color name="item_seltext">#eeeeee</color>
+	<color name="item_blue">#215a9f</color>
+	<color name="item_gray">#c2c2c2</color>
+
+	<!-- black theme -->
+    <color name="black_titlebar">#2b2b2b</color>
+	<color name="black_activity">#000000</color>
+	<color name="black_background">#1b1b1b</color>
+	<color name="black_station">#acacac</color>
+	<color name="black_train">#acacac</color>
+	<color name="black_sep">#333333</color>
+	<color name="black_divider">#252525</color>
+	<color name="black_title">#ffffff</color>
+	<color name="black_subtext">#acacac</color>
+	<color name="black_highlight">#4b2929</color>
+	<color name="black_stroke">#3b3b3b</color>
+	<color name="black_background_list">#292929</color>
+
+	<!-- 4 theme -->
+	<color name="gt_titlebar">#000000</color>
+	<color name="gt_background">#000000</color>
+	<color name="gt_station">#ffffff</color>
+	<color name="gt_train">#ffffff</color>
+	<color name="gt_sep">#333333</color>
+	<color name="gt_divider">#333333</color>
+	<color name="gt_title">#ffffff</color>
+	<color name="gt_subtext">#7b7b7b</color>
+
+	<color name="icon_sort">#878787</color>
+
+	<!-- lineManager color -->
+	<color name="station_transfer">#ffffff</color>
+	<color name="line_1">#0d3692</color>
+	<color name="line_2">#33a23d</color>
+	<color name="line_3">#ff7300</color>
+	<color name="line_4">#2c9ede</color>
+	<color name="line_5">#603295</color>
+	<color name="line_6">#cc5d0c</color>
+	<color name="line_7">#4d5613</color>
+	<color name="line_8">#f63763</color>
+	<color name="line_9">#cea43a</color>
+	<color name="line_kj">#26b28f</color>
+	<color name="line_sb">#db0029</color>
+	<color name="line_kc">#0a8e72</color>
+	<color name="line_bs">#fcb726</color>
+	<color name="line_gh">#008cd6</color>
+
+	<!-- lab -->
+	<color name="lab_back">#e6e8eb</color>
+	<color name="lab_background">#f9f9f9</color>
+	<color name="lab_station">#545454</color>
+	<color name="lab_train">#545454</color>
+	<color name="lab_sep">#e6e8eb</color>
+	<color name="lab_subtext">#7b7b7b</color>
+	<color name="lab_divider">#f0f0f0</color>
+	<color name="lab_stroke">#ababab</color>
+	<color name="lab_highlight">#fdeded</color>
+
+	<!-- favorite -->
+	<color name="fab_station">#eeeeee</color>
+	<color name="fab_dst">#545454</color>
+	<color name="fab_status">#7b7b7b</color>
+	<color name="fab_up">#16a614</color>
+	<color name="fab_down">#ac3e1d</color>
+	<color name="fab_stroke">#901b1b1b</color>
+	<color name="fab_solid">#d2d2d2</color>
+	<color name="fab_divider">#d6d6d6</color>
+	<color name="fab_next_status">#8500de</color>
+</resources>

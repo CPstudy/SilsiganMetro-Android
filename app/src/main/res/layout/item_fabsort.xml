@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/dragicon"
+	android:layout_width="match_parent"
+	android:layout_height="55dp"
+	android:orientation="horizontal"
+	android:weightSum="2"
+	android:background="@color/lab_background">
+
+	<View
+		android:id="@+id/view_divider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_alignParentBottom="true"
+		android:background="@color/lab_sep" />
+
+	<TextView
+		android:id="@+id/txt_line_name1"
+		android:layout_width="wrap_content"
+		android:layout_height="25dp"
+		android:minWidth="25dp"
+		android:layout_marginLeft="@dimen/margin_default"
+		android:layout_centerVertical="true"
+		android:paddingLeft="6dp"
+		android:paddingRight="6dp"
+		android:gravity="center"
+		android:background="@drawable/icon_linenum"
+		android:text="2"
+		android:textColor="@color/bg_white"
+		android:textSize="14sp"/>
+
+	<TextView
+		android:id="@+id/txt_line_name2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_toEndOf="@+id/txt_line_name1"
+		android:layout_marginStart="@dimen/margin_default"
+		android:layout_centerVertical="true"
+		android:gravity="left"
+		android:textColor="@color/lab_station"
+		android:textSize="@dimen/txt_station"
+		android:text="1호선"/>
+
+	<ImageView
+		android:id="@+id/drag_handle"
+		android:layout_width="50dp"
+		android:layout_height="match_parent"
+		android:padding="15dp"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:src="@drawable/icon_sort"
+		android:scaleType="centerCrop"
+		android:visibility="invisible"/>
+
+	<ImageButton
+		android:id="@+id/btn_remove"
+		android:layout_width="50dp"
+		android:layout_height="match_parent"
+		android:padding="12dp"
+		android:layout_alignParentRight="true"
+		android:layout_centerVertical="true"
+		android:background="@android:color/transparent"
+		android:src="@drawable/icon_remove"
+		android:scaleType="centerCrop"
+		android:visibility="visible"/>
+
+</RelativeLayout>

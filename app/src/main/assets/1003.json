@@ -1,0 +1,398 @@
+[
+ {
+   "staNum": 1003000310,
+   "staName": "대화",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000311,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1003000311,
+   "staName": "주엽",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000312,
+   "staNext": 1003000310
+ },
+ {
+   "staNum": 1003000312,
+   "staName": "정발산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000313,
+   "staNext": 1003000311
+ },
+ {
+   "staNum": 1003000313,
+   "staName": "마두",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000314,
+   "staNext": 1003000312
+ },
+ {
+   "staNum": 1003000314,
+   "staName": "백석",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000315,
+   "staNext": 1003000313
+ },
+ {
+   "staNum": 1003000315,
+   "staName": "대곡",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000316,
+   "staNext": 1003000314
+ },
+ {
+   "staNum": 1003000316,
+   "staName": "화정",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000317,
+   "staNext": 1003000315
+ },
+ {
+   "staNum": 1003000317,
+   "staName": "원당",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000309,
+   "staNext": 1003000316
+ },
+ {
+   "staNum": 1003000309,
+   "staName": "원흥",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000318,
+   "staNext": 1003000317
+ },
+ {
+   "staNum": 1003000318,
+   "staName": "삼송",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000319,
+   "staNext": 1003000309
+ },
+ {
+   "staNum": 1003000319,
+   "staName": "지축",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000320,
+   "staNext": 1003000318
+ },
+ {
+   "staNum": 1003000320,
+   "staName": "구파발",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000321,
+   "staNext": 1003000319
+ },
+ {
+   "staNum": 1003000321,
+   "staName": "연신내",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000322,
+   "staNext": 1003000320
+ },
+ {
+   "staNum": 1003000322,
+   "staName": "불광",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000323,
+   "staNext": 1003000321
+ },
+ {
+   "staNum": 1003000323,
+   "staName": "녹번",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000324,
+   "staNext": 1003000322
+ },
+ {
+   "staNum": 1003000324,
+   "staName": "홍제",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000325,
+   "staNext": 1003000323
+ },
+ {
+   "staNum": 1003000325,
+   "staName": "무악재",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000326,
+   "staNext": 1003000324
+ },
+ {
+   "staNum": 1003000326,
+   "staName": "독립문",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000327,
+   "staNext": 1003000325
+ },
+ {
+   "staNum": 1003000327,
+   "staName": "경복궁",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000328,
+   "staNext": 1003000326
+ },
+ {
+   "staNum": 1003000328,
+   "staName": "안국",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000329,
+   "staNext": 1003000327
+ },
+ {
+   "staNum": 1003000329,
+   "staName": "종로3가",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000330,
+   "staNext": 1003000328
+ },
+ {
+   "staNum": 1003000330,
+   "staName": "을지로3가",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000331,
+   "staNext": 1003000329
+ },
+ {
+   "staNum": 1003000331,
+   "staName": "충무로",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000332,
+   "staNext": 1003000330
+ },
+ {
+   "staNum": 1003000332,
+   "staName": "동대입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000333,
+   "staNext": 1003000331
+ },
+ {
+   "staNum": 1003000333,
+   "staName": "약수",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000334,
+   "staNext": 1003000332
+ },
+ {
+   "staNum": 1003000334,
+   "staName": "금호",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000335,
+   "staNext": 1003000333
+ },
+ {
+   "staNum": 1003000335,
+   "staName": "옥수",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000336,
+   "staNext": 1003000334
+ },
+ {
+   "staNum": 1003000336,
+   "staName": "압구정",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000337,
+   "staNext": 1003000335
+ },
+ {
+   "staNum": 1003000337,
+   "staName": "신사",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000338,
+   "staNext": 1003000336
+ },
+ {
+   "staNum": 1003000338,
+   "staName": "잠원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000339,
+   "staNext": 1003000337
+ },
+ {
+   "staNum": 1003000339,
+   "staName": "고속터미널",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000340,
+   "staNext": 1003000338
+ },
+ {
+   "staNum": 1003000340,
+   "staName": "교대",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000341,
+   "staNext": 1003000339
+ },
+ {
+   "staNum": 1003000341,
+   "staName": "남부터미널",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000342,
+   "staNext": 1003000340
+ },
+ {
+   "staNum": 1003000342,
+   "staName": "양재",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000343,
+   "staNext": 1003000341
+ },
+ {
+   "staNum": 1003000343,
+   "staName": "매봉",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000344,
+   "staNext": 1003000342
+ },
+ {
+   "staNum": 1003000344,
+   "staName": "도곡",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000345,
+   "staNext": 1003000343
+ },
+ {
+   "staNum": 1003000345,
+   "staName": "대치",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000346,
+   "staNext": 1003000344
+ },
+ {
+   "staNum": 1003000346,
+   "staName": "학여울",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000347,
+   "staNext": 1003000345
+ },
+ {
+   "staNum": 1003000347,
+   "staName": "대청",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000348,
+   "staNext": 1003000346
+ },
+ {
+   "staNum": 1003000348,
+   "staName": "일원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000349,
+   "staNext": 1003000347
+ },
+ {
+   "staNum": 1003000349,
+   "staName": "수서",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000350,
+   "staNext": 1003000348
+ },
+ {
+   "staNum": 1003000350,
+   "staName": "가락시장",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000351,
+   "staNext": 1003000349
+ },
+ {
+   "staNum": 1003000351,
+   "staName": "경찰병원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1003000352,
+   "staNext": 1003000350
+ },
+ {
+   "staNum": 1003000352,
+   "staName": "오금",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1003000351
+ }
+]

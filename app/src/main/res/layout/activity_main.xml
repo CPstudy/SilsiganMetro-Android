@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layoutBack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lab_sep"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <com.ganada.silsiganmetro.view.CustomTitlebar
+        android:id="@+id/layTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:backButton="false">
+
+        <ImageButton
+            android:id="@+id/btn_favorite"
+            android:layout_width="@dimen/btn_back"
+            android:layout_height="@dimen/btn_back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/ic_book_white_24dp"
+            android:background="@drawable/bg_btn_refresh"/>
+
+        <TextView
+            android:id="@+id/txtMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerInParent="true"
+            android:background="#00000000"
+            android:text="실시간 지하철"
+            android:textSize="@dimen/txt_title"
+            android:textColor="#eee"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnSetting"
+            android:layout_width="@dimen/btn_back"
+            android:layout_height="@dimen/btn_back"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_settings_white_24dp"
+            android:background="@drawable/bg_btn_refresh"/>
+
+    </com.ganada.silsiganmetro.view.CustomTitlebar>
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="SMART_BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="@dimen/margin_small"
+            android:paddingRight="@dimen/margin_small"
+            android:scrollbars="none"
+            android:fadingEdge="none"
+            android:dividerHeight="5dp"
+            android:divider="@color/lab_sep">
+
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>

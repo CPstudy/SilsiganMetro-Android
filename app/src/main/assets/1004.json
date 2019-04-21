@@ -1,0 +1,434 @@
+[
+ {
+   "staNum": 1004000409,
+   "staName": "당고개",
+   "staInfo": 2,
+   "staExpress": 1,
+   "staSubText": "당고개 - 금정 각 역 정차",
+   "staPrev": 1004000410,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1004000410,
+   "staName": "상계",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000411,
+   "staNext": 1004000409
+ },
+ {
+   "staNum": 1004000411,
+   "staName": "노원",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000412,
+   "staNext": 1004000410
+ },
+ {
+   "staNum": 1004000412,
+   "staName": "창동",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000413,
+   "staNext": 1004000411
+ },
+ {
+   "staNum": 1004000413,
+   "staName": "쌍문",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000414,
+   "staNext": 1004000412
+ },
+ {
+   "staNum": 1004000414,
+   "staName": "수유",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000415,
+   "staNext": 1004000413
+ },
+ {
+   "staNum": 1004000415,
+   "staName": "미아",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000416,
+   "staNext": 1004000414
+ },
+ {
+   "staNum": 1004000416,
+   "staName": "미아사거리",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000417,
+   "staNext": 1004000415
+ },
+ {
+   "staNum": 1004000417,
+   "staName": "길음",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000418,
+   "staNext": 1004000416
+ },
+ {
+   "staNum": 1004000418,
+   "staName": "성신여대입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000419,
+   "staNext": 1004000417
+ },
+ {
+   "staNum": 1004000419,
+   "staName": "한성대입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000420,
+   "staNext": 1004000418
+ },
+ {
+   "staNum": 1004000420,
+   "staName": "혜화",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000421,
+   "staNext": 1004000419
+ },
+ {
+   "staNum": 1004000421,
+   "staName": "동대문",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000422,
+   "staNext": 1004000420
+ },
+ {
+   "staNum": 1004000422,
+   "staName": "동대문역사문화공원",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000423,
+   "staNext": 1004000421
+ },
+ {
+   "staNum": 1004000423,
+   "staName": "충무로",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000424,
+   "staNext": 1004000422
+ },
+ {
+   "staNum": 1004000424,
+   "staName": "명동",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000425,
+   "staNext": 1004000423
+ },
+ {
+   "staNum": 1004000425,
+   "staName": "회현",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000426,
+   "staNext": 1004000424
+ },
+ {
+   "staNum": 1004000426,
+   "staName": "서울역",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000427,
+   "staNext": 1004000425
+ },
+ {
+   "staNum": 1004000427,
+   "staName": "숙대입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000428,
+   "staNext": 1004000426
+ },
+ {
+   "staNum": 1004000428,
+   "staName": "삼각지",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000429,
+   "staNext": 1004000427
+ },
+ {
+   "staNum": 1004000429,
+   "staName": "신용산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000430,
+   "staNext": 1004000428
+ },
+ {
+   "staNum": 1004000430,
+   "staName": "이촌",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000431,
+   "staNext": 1004000429
+ },
+ {
+   "staNum": 1004000431,
+   "staName": "동작",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000432,
+   "staNext": 1004000430
+ },
+ {
+   "staNum": 1004000432,
+   "staName": "총신대입구(이수)",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000433,
+   "staNext": 1004000431
+ },
+ {
+   "staNum": 1004000433,
+   "staName": "사당",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000434,
+   "staNext": 1004000432
+ },
+ {
+   "staNum": 1004000434,
+   "staName": "남태령",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000435,
+   "staNext": 1004000433
+ },
+ {
+   "staNum": 1004000435,
+   "staName": "선바위",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000436,
+   "staNext": 1004000434
+ },
+ {
+   "staNum": 1004000436,
+   "staName": "경마공원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000437,
+   "staNext": 1004000435
+ },
+ {
+   "staNum": 1004000437,
+   "staName": "대공원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000438,
+   "staNext": 1004000436
+ },
+ {
+   "staNum": 1004000438,
+   "staName": "과천",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000439,
+   "staNext": 1004000437
+ },
+ {
+   "staNum": 1004000439,
+   "staName": "정부과천청사",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000440,
+   "staNext": 1004000438
+ },
+ {
+   "staNum": 1004000440,
+   "staName": "인덕원",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000441,
+   "staNext": 1004000439
+ },
+ {
+   "staNum": 1004000441,
+   "staName": "평촌",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000442,
+   "staNext": 1004000440
+ },
+ {
+   "staNum": 1004000442,
+   "staName": "범계",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000443,
+   "staNext": 1004000441
+ },
+ {
+   "staNum": 1004000443,
+   "staName": "금정",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "당고개 - 금정 각 역 정차",
+   "staPrev": 1004000444,
+   "staNext": 1004000442
+ },
+ {
+   "staNum": 1004000444,
+   "staName": "산본",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1004000445,
+   "staNext": 1004000443
+ },
+ {
+   "staNum": 1004000445,
+   "staName": "수리산",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000446,
+   "staNext": 1004000444
+ },
+ {
+   "staNum": 1004000446,
+   "staName": "대야미",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000447,
+   "staNext": 1004000445
+ },
+ {
+   "staNum": 1004000447,
+   "staName": "반월",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000448,
+   "staNext": 1004000446
+ },
+ {
+   "staNum": 1004000448,
+   "staName": "상록수",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1004000449,
+   "staNext": 1004000447
+ },
+ {
+   "staNum": 1004000449,
+   "staName": "한대앞",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000450,
+   "staNext": 1004000448
+ },
+ {
+   "staNum": 1004000450,
+   "staName": "중앙",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1004000451,
+   "staNext": 1004000449
+ },
+ {
+   "staNum": 1004000451,
+   "staName": "고잔",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000452,
+   "staNext": 1004000450
+ },
+ {
+   "staNum": 1004000452,
+   "staName": "초지",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000453,
+   "staNext": 1004000451
+ },
+ {
+   "staNum": 1004000453,
+   "staName": "안산",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1004000454,
+   "staNext": 1004000452
+ },
+ {
+   "staNum": 1004000454,
+   "staName": "신길온천",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000455,
+   "staNext": 1004000453
+ },
+ {
+   "staNum": 1004000455,
+   "staName": "정왕",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1004000456,
+   "staNext": 1004000454
+ },
+ {
+   "staNum": 1004000456,
+   "staName": "오이도",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1004000455
+ }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "staNum": 1065006511,
+    "staName": "인천공항2터미널",
+    "staInfo": 2,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006510,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1065006510,
+    "staName": "인천공항1터미널",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006509,
+    "staNext": 1065006511
+  },
+  {
+    "staNum": 1065006509,
+    "staName": "공항화물청사",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006508,
+    "staNext": 1065006510
+  },
+  {
+    "staNum": 1065006508,
+    "staName": "운서",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065065071,
+    "staNext": 1065006509
+  },
+  {
+    "staNum": 1065065071,
+    "staName": "청라국제도시",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006507,
+    "staNext": 1065006508
+  },
+  {
+    "staNum": 1065006507,
+    "staName": "검암",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006506,
+    "staNext": 1065065071
+  },
+  {
+    "staNum": 1065006506,
+    "staName": "계양",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006505,
+    "staNext": 1065006507
+  },
+  {
+    "staNum": 1065006505,
+    "staName": "김포공항",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006504,
+    "staNext": 1065006506
+  },
+  {
+    "staNum": 1065006504,
+    "staName": "디지털미디어시티",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006503,
+    "staNext": 1065006505
+  },
+  {
+    "staNum": 1065006503,
+    "staName": "홍대입구",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006502,
+    "staNext": 1065006504
+  },
+  {
+    "staNum": 1065006502,
+    "staName": "공덕",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1065006501,
+    "staNext": 1065006503
+  },
+  {
+    "staNum": 1065006501,
+    "staName": "서울역",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1065006502
+  }
+]

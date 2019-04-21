@@ -1,0 +1,353 @@
+[
+  {
+    "staNum": 1006000610,
+    "staName": "응암",
+    "staInfo": 2,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000611,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1006000611,
+    "staName": "역촌",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000612,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1006000612,
+    "staName": "불광",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000613,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1006000613,
+    "staName": "독바위",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000614,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1006000614,
+    "staName": "연신내",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000615,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1006000615,
+    "staName": "구산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000610,
+    "staNext": 1000000000
+  },
+  {
+    "staNum": 1006000610,
+    "staName": "응암",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000616,
+    "staNext": 1006000615
+  },
+  {
+    "staNum": 1006000616,
+    "staName": "새절",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000617,
+    "staNext": 1006000610
+  },
+  {
+    "staNum": 1006000617,
+    "staName": "증산",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000618,
+    "staNext": 1006000616
+  },
+  {
+    "staNum": 1006000618,
+    "staName": "디지털미디어시티",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000619,
+    "staNext": 1006000617
+  },
+  {
+    "staNum": 1006000619,
+    "staName": "월드컵경기장",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000620,
+    "staNext": 1006000618
+  },
+  {
+    "staNum": 1006000620,
+    "staName": "마포구청",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000621,
+    "staNext": 1006000619
+  },
+  {
+    "staNum": 1006000621,
+    "staName": "망원",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000622,
+    "staNext": 1006000620
+  },
+  {
+    "staNum": 1006000622,
+    "staName": "합정",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000623,
+    "staNext": 1006000621
+  },
+  {
+    "staNum": 1006000623,
+    "staName": "상수",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000624,
+    "staNext": 1006000622
+  },
+  {
+    "staNum": 1006000624,
+    "staName": "광흥창",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000625,
+    "staNext": 1006000623
+  },
+  {
+    "staNum": 1006000625,
+    "staName": "대흥",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000626,
+    "staNext": 1006000624
+  },
+  {
+    "staNum": 1006000626,
+    "staName": "공덕",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000627,
+    "staNext": 1006000625
+  },
+  {
+    "staNum": 1006000627,
+    "staName": "효창공원앞",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000628,
+    "staNext": 1006000626
+  },
+  {
+    "staNum": 1006000628,
+    "staName": "삼각지",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000629,
+    "staNext": 1006000627
+  },
+  {
+    "staNum": 1006000629,
+    "staName": "녹사평",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000630,
+    "staNext": 1006000628
+  },
+  {
+    "staNum": 1006000630,
+    "staName": "이태원",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000631,
+    "staNext": 1006000629
+  },
+  {
+    "staNum": 1006000631,
+    "staName": "한강진",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000632,
+    "staNext": 1006000630
+  },
+  {
+    "staNum": 1006000632,
+    "staName": "버티고개",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000633,
+    "staNext": 1006000631
+  },
+  {
+    "staNum": 1006000633,
+    "staName": "약수",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000634,
+    "staNext": 1006000632
+  },
+  {
+    "staNum": 1006000634,
+    "staName": "청구",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000635,
+    "staNext": 1006000633
+  },
+  {
+    "staNum": 1006000635,
+    "staName": "신당",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000636,
+    "staNext": 1006000634
+  },
+  {
+    "staNum": 1006000636,
+    "staName": "동묘앞",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000637,
+    "staNext": 1006000635
+  },
+  {
+    "staNum": 1006000637,
+    "staName": "창신",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000638,
+    "staNext": 1006000636
+  },
+  {
+    "staNum": 1006000638,
+    "staName": "보문",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000639,
+    "staNext": 1006000637
+  },
+  {
+    "staNum": 1006000639,
+    "staName": "안암",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000640,
+    "staNext": 1006000638
+  },
+  {
+    "staNum": 1006000640,
+    "staName": "고려대",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000641,
+    "staNext": 1006000639
+  },
+  {
+    "staNum": 1006000641,
+    "staName": "월곡",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000642,
+    "staNext": 1006000640
+  },
+  {
+    "staNum": 1006000642,
+    "staName": "상월곡",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000643,
+    "staNext": 1006000641
+  },
+  {
+    "staNum": 1006000643,
+    "staName": "돌곶이",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000644,
+    "staNext": 1006000642
+  },
+  {
+    "staNum": 1006000644,
+    "staName": "석계",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000645,
+    "staNext": 1006000643
+  },
+  {
+    "staNum": 1006000645,
+    "staName": "태릉입구",
+    "staInfo": 1,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000646,
+    "staNext": 1006000644
+  },
+  {
+    "staNum": 1006000646,
+    "staName": "화랑대",
+    "staInfo": 0,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1006000647,
+    "staNext": 1006000645
+  },
+  {
+    "staNum": 1006000647,
+    "staName": "봉화산",
+    "staInfo": 3,
+    "staExpress": 0,
+    "staSubText": "",
+    "staPrev": 1000000000,
+    "staNext": 1006000646
+  }
+]

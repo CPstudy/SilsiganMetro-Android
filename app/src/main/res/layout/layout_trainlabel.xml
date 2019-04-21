@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_small"
+    android:background="@drawable/item_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/txtDst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종합운동장행"
+        android:textColor="@color/fab_dst"
+        android:textSize="@dimen/fab_status"/>
+
+    <TextView
+        android:id="@+id/txtNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1234"
+        android:textColor="@color/fab_dst"
+        android:textSize="@dimen/fab_status"/>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="2분 30초 후 도착"
+        android:textColor="@color/fab_next_status"
+        android:textSize="@dimen/fab_next"/>
+
+</LinearLayout>

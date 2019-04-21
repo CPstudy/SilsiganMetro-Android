@@ -1,0 +1,272 @@
+[
+ {
+   "staNum": 1009000901,
+   "staName": "개화",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000902,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1009000902,
+   "staName": "김포공항",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1009000903,
+   "staNext": 1009000901
+ },
+ {
+   "staNum": 1009000903,
+   "staName": "공항시장",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000904,
+   "staNext": 1009000902
+ },
+ {
+   "staNum": 1009000904,
+   "staName": "신방화",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000905,
+   "staNext": 1009000903
+ },
+ {
+   "staNum": 1009000905,
+   "staName": "마곡나루",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000906,
+   "staNext": 1009000904
+ },
+ {
+   "staNum": 1009000906,
+   "staName": "양천향교",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000907,
+   "staNext": 1009000905
+ },
+ {
+   "staNum": 1009000907,
+   "staName": "가양",
+   "staInfo": 0,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000908,
+   "staNext": 1009000906
+ },
+ {
+   "staNum": 1009000908,
+   "staName": "증미",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000909,
+   "staNext": 1009000907
+ },
+ {
+   "staNum": 1009000909,
+   "staName": "등촌",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000910,
+   "staNext": 1009000908
+ },
+ {
+   "staNum": 1009000910,
+   "staName": "염창",
+   "staInfo": 0,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000911,
+   "staNext": 1009000909
+ },
+ {
+   "staNum": 1009000911,
+   "staName": "신목동",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000912,
+   "staNext": 1009000910
+ },
+ {
+   "staNum": 1009000912,
+   "staName": "선유도",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000913,
+   "staNext": 1009000911
+ },
+ {
+   "staNum": 1009000913,
+   "staName": "당산",
+   "staInfo": 1,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000914,
+   "staNext": 1009000912
+ },
+ {
+   "staNum": 1009000914,
+   "staName": "국회의사당",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000915,
+   "staNext": 1009000913
+ },
+ {
+   "staNum": 1009000915,
+   "staName": "여의도",
+   "staInfo": 1,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000916,
+   "staNext": 1009000914
+ },
+ {
+   "staNum": 1009000916,
+   "staName": "샛강",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000917,
+   "staNext": 1009000915
+ },
+ {
+   "staNum": 1009000917,
+   "staName": "노량진",
+   "staInfo": 1,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000918,
+   "staNext": 1009000916
+ },
+ {
+   "staNum": 1009000918,
+   "staName": "노들",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000919,
+   "staNext": 1009000917
+ },
+ {
+   "staNum": 1009000919,
+   "staName": "흑석",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000920,
+   "staNext": 1009000918
+ },
+ {
+   "staNum": 1009000920,
+   "staName": "동작",
+   "staInfo": 1,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000921,
+   "staNext": 1009000919
+ },
+ {
+   "staNum": 1009000921,
+   "staName": "구반포",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000922,
+   "staNext": 1009000920
+ },
+ {
+   "staNum": 1009000922,
+   "staName": "신반포",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000923,
+   "staNext": 1009000921
+ },
+ {
+   "staNum": 1009000923,
+   "staName": "고속터미널",
+   "staInfo": 1,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000924,
+   "staNext": 1009000922
+ },
+ {
+   "staNum": 1009000924,
+   "staName": "사평",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000925,
+   "staNext": 1009000923
+ },
+ {
+   "staNum": 1009000925,
+   "staName": "신논현",
+   "staInfo": 0,
+   "staExpress": 3,
+   "staSubText": "",
+   "staPrev": 1009000926,
+   "staNext": 1009000924
+ },
+ {
+   "staNum": 1009000926,
+   "staName": "언주",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000927,
+   "staNext": 1009000925
+ },
+ {
+   "staNum": 1009000927,
+   "staName": "선정릉",
+   "staInfo": 1,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1009000928,
+   "staNext": 1009000926
+ },
+ {
+   "staNum": 1009000928,
+   "staName": "삼성중앙",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1009000929,
+   "staNext": 1009000927
+ },
+ {
+   "staNum": 1009000929,
+   "staName": "봉은사",
+   "staInfo": 0,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1009000930,
+   "staNext": 1009000928
+ },
+ {
+   "staNum": 1009000930,
+   "staName": "종합운동장",
+   "staInfo": 3,
+   "staExpress": 1,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1009000929
+ }
+]

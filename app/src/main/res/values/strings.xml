@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">실시간 지하철</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="train_info">종합운동장\n2000</string>
+    <string name="station">역 명</string>
+    <string name="station_sub">여기는 추가 설명란입니다.</string>
+    <string name="fab_train">종합운동장</string>
+    <string name="fab_direction">종합운동장 방면</string>
+    <string name="fab_test_1">종합운동장행</string>
+    <string name="fab_test_2">동대문역사문화공원</string>
+    <string name="fab_test_3">전역 출발</string>
+    <string name="timetable_1">05:30\nK1234 종합운동장</string>
+    <string name="timetable_2">05:30\n종합운동장 K1234</string>
+
+
+    <string name="str_version">5.18</string>
+    <string name="banner_ad_unit_id">ca-app-pub-9749702189208691/5344348679</string>
+
+    <string-array name="lineManager">
+        <item>홈 화면</item>
+        <item>1호선</item>
+        <item>2호선</item>
+        <item>3호선</item>
+        <item>4호선</item>
+        <item>5호선</item>
+        <item>6호선</item>
+        <item>7호선</item>
+        <item>8호선</item>
+        <item>9호선</item>
+        <item>경의·중앙선</item>
+        <item>분당선</item>
+        <item>수인선</item>
+        <item>신분당선</item>
+        <item>경춘선</item>
+        <item>공항철도</item>
+    </string-array>
+
+</resources>

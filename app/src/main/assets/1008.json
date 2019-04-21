@@ -1,0 +1,155 @@
+[
+ {
+   "staNum": 1008000810,
+   "staName": "암사",
+   "staInfo": 2,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000811,
+   "staNext": 1000000000
+ },
+ {
+   "staNum": 1008000811,
+   "staName": "천호",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000812,
+   "staNext": 1008000810
+ },
+ {
+   "staNum": 1008000812,
+   "staName": "강동구청",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000813,
+   "staNext": 1008000811
+ },
+ {
+   "staNum": 1008000813,
+   "staName": "몽촌토성",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000814,
+   "staNext": 1008000812
+ },
+ {
+   "staNum": 1008000814,
+   "staName": "잠실",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000815,
+   "staNext": 1008000813
+ },
+ {
+   "staNum": 1008000815,
+   "staName": "석촌",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000816,
+   "staNext": 1008000814
+ },
+ {
+   "staNum": 1008000816,
+   "staName": "송파",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000817,
+   "staNext": 1008000815
+ },
+ {
+   "staNum": 1008000817,
+   "staName": "가락시장",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000818,
+   "staNext": 1008000816
+ },
+ {
+   "staNum": 1008000818,
+   "staName": "문정",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000819,
+   "staNext": 1008000817
+ },
+ {
+   "staNum": 1008000819,
+   "staName": "장지",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000820,
+   "staNext": 1008000818
+ },
+ {
+   "staNum": 1008000820,
+   "staName": "복정",
+   "staInfo": 1,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000821,
+   "staNext": 1008000819
+ },
+ {
+   "staNum": 1008000821,
+   "staName": "산성",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000822,
+   "staNext": 1008000820
+ },
+ {
+   "staNum": 1008000822,
+   "staName": "남한산성입구",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000823,
+   "staNext": 1008000821
+ },
+ {
+   "staNum": 1008000823,
+   "staName": "단대오거리",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000824,
+   "staNext": 1008000822
+ },
+ {
+   "staNum": 1008000824,
+   "staName": "신흥",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000825,
+   "staNext": 1008000823
+ },
+ {
+   "staNum": 1008000825,
+   "staName": "수진",
+   "staInfo": 0,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1008000826,
+   "staNext": 1008000824
+ },
+ {
+   "staNum": 1008000826,
+   "staName": "모란",
+   "staInfo": 3,
+   "staExpress": 0,
+   "staSubText": "",
+   "staPrev": 1000000000,
+   "staNext": 1008000825
+ }
+]
