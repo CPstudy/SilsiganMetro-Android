@@ -40,7 +40,14 @@ public class StationActivity extends Activity {
     private SharedPreferences mPref;
     private SharedPreferences.Editor mPrefEdit;
 
-    private MyAsyncTask myAsyncTask;
+    ThemeManager tm;
+    LineManager lineManager;
+    int iTheme;
+    int time;
+    String str_station_name;
+    String str_station_num;
+
+    /*private MyAsyncTask myAsyncTask;
     private TrainAsyncTask trainAsync;
 
     LineManager lineManager;
@@ -77,7 +84,7 @@ public class StationActivity extends Activity {
     String[] xmlNumber;
     String[] xmlDst;
     String[] arrUpSta = new String[3];
-    String[] arrDownSta = new String[3];
+    String[] arrDownSta = new String[3];*/
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -95,13 +102,13 @@ public class StationActivity extends Activity {
         str_station_name = intent.getStringExtra("str_station");
         str_station_num = intent.getStringExtra("str_num");
 
-        /*intent = new Intent(StationActivity.this, TimetableActivity.class);
+        intent = new Intent(StationActivity.this, TimetableActivity.class);
         intent.putExtra("str_station", str_station_name);
         intent.putExtra("str_num", str_station_num);
         startActivity(intent);
-        finish();*/
+        finish();
 
-        btnRefresh = findViewById(R.id.btnRefresh);
+        /*btnRefresh = findViewById(R.id.btnRefresh);
         btnBack = findViewById(R.id.btnBack);
         btnTimetable = findViewById(R.id.btnTimetable);
         txt_station = findViewById(R.id.txt_station);
@@ -210,10 +217,10 @@ public class StationActivity extends Activity {
                 Log.e("Refresh", "Click");
                 createTrain();
             }
-        });
+        });*/
     }
 
-    private void startApp() {
+    /*private void startApp() {
         LineStation lsPrev1 = lineManager.getPrevStation(lineManager.getStationArray(str_line_num), str_station_name, 1);
         LineStation lsPrev2 = lineManager.getPrevStation(lineManager.getStationArray(str_line_num), str_station_name, 2);
         LineStation lsNext1 = lineManager.getNextStation(lineManager.getStationArray(str_line_num), str_station_name, 1);
@@ -691,5 +698,5 @@ public class StationActivity extends Activity {
         super.onResume();
         rail_up.resumeAnimation();
         rail_down.resumeAnimation();
-    }
+    }*/
 }

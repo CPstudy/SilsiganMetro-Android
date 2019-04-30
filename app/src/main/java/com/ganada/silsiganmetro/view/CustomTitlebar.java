@@ -57,12 +57,8 @@ public class CustomTitlebar extends RelativeLayout {
         changeText();
         setBackButtonVisible(backButtonVisible);
 
-        btnBack.setOnClickListener(new OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Log.e("Button", "Title Bar Button Clicked");
-                ((Activity)context).finish();
-            }
+        btnBack.setOnClickListener(view -> {
+            ((Activity)context).finish();
         });
 
         if (Build.VERSION.SDK_INT < Build.VERSION_CODES.LOLLIPOP) {
