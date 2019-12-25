@@ -1,5 +1,6 @@
 package com.ganada.silsiganmetro;
 
+import android.content.Context;
 import android.support.multidex.MultiDexApplication;
 
 import com.nhn.android.naverlogin.OAuthLogin;
@@ -9,6 +10,8 @@ import com.nhn.android.naverlogin.OAuthLogin;
  */
 
 public class MetroApplication extends MultiDexApplication {
+
+    private static Context applicationContext;
 
     private OAuthLogin mOAuthLoginModule;
 

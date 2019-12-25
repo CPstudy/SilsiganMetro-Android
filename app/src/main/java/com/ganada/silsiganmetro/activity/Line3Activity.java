@@ -44,6 +44,7 @@ import com.ganada.silsiganmetro.real.Realtime;
 import com.ganada.silsiganmetro.MetroApplication;
 import com.ganada.silsiganmetro.util.ThemeManager;
 import com.ganada.silsiganmetro.view.CustomTitlebar;
+import com.ganada.silsiganmetro.view.RefreshButton;
 
 
 import org.json.JSONArray;
@@ -67,8 +68,7 @@ public class Line3Activity extends Activity {
 	CustomTitlebar layTitle;
 	ListView list;
 	Animation animSpin;
-	ImageView imgTime;
-	Button btnRefresh;
+	RefreshButton btnRefresh;
 	RelativeLayout layout_title;
 	TextView btnInfo;
 	ImageButton btnBack;
@@ -83,6 +83,7 @@ public class Line3Activity extends Activity {
 	int iPosition;
 	int i_favorite;
 	boolean bool_pos;
+	String receivedTime = "--";
 	String POS_LINE = "pos_line3";
 	String BOOL_LINE = "bool_line3";
 
@@ -112,7 +113,6 @@ public class Line3Activity extends Activity {
 
 		arCustomList = new ArrayList<>();
 		ListNorm listnorm;
-		imgTime = findViewById(R.id.imgTime);
 		btnRefresh = findViewById(R.id.btnRefresh);
 		layTitle = findViewById(R.id.layTitle);
 		footer = getLayoutInflater().inflate(R.layout.item_footer, null, false);
@@ -296,7 +296,7 @@ public class Line3Activity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			imgTime.startAnimation(animSpin);
+			btnRefresh.startAnimation();
 		}
 
 		// 수행 >> 끝나면 종료
@@ -329,7 +329,8 @@ public class Line3Activity extends Activity {
 		@Override
 		protected void onPostExecute(String result) {
 			super.onPostExecute(result);
-			imgTime.clearAnimation();
+			btnRefresh.stopAnimation();
+			btnRefresh.setTime(receivedTime);
 			adapter.notifyDataSetChanged();
 			if(result != null){
 				Log.d("ASYNC", "result = " + result);
@@ -348,6 +349,8 @@ public class Line3Activity extends Activity {
 
 		try {
 			JSONObject json = new JSONObject(pRecvServerPage);
+			receivedTime = json.getString("time");
+			json = json.getJSONObject("result");
 			JSONArray jArr = json.getJSONArray("realtimePositionList");
 
 			String[] jsonName = {"statnId", "updnLine", "trainNo", "statnTnm", "trainSttus", "directAt"};
@@ -843,13 +846,13 @@ public class Line3Activity extends Activity {
 				iTime--;
 			} else {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 				iTime = iSec;
 			}
 
 			if(iTime == 0 && iSec == 0) {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 			} else {
 				Log.e("iTime >>>>>> ", "iTime = " + iTime);
 				mHandler.sendEmptyMessageDelayed(0, 1000);
@@ -862,7 +865,7 @@ public class Line3Activity extends Activity {
 		super.onPause();
 		mHandler.removeMessages(0);
 		myAsyncTask.cancel(true);
-		imgTime.clearAnimation();
+		btnRefresh.stopAnimation();
 	}
 
 	@Override

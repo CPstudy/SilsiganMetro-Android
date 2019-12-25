@@ -190,7 +190,7 @@
                             android:text="4 버전"
                             android:textColor="@color/item_text"
                             android:textSize="@dimen/txt_sub"
-                            android:visibility="visible"/>
+                            android:visibility="gone"/>
 
                     </LinearLayout>
 

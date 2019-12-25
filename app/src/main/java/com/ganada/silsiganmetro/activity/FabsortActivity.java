@@ -15,6 +15,8 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -26,6 +28,7 @@ import com.ganada.silsiganmetro.common.OnStartDragListener;
 import com.ganada.silsiganmetro.R;
 import com.ganada.silsiganmetro.common.SimpleItemTouchHelperCallback;
 import com.ganada.silsiganmetro.util.ThemeManager;
+import com.ganada.silsiganmetro.view.CustomTitlebar;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -39,8 +42,8 @@ public class FabsortActivity extends Activity implements OnStartDragListener {
     ThemeManager tm;
 
     ImageButton btn_reset;
-    ImageButton btnBack;
 
+    CustomTitlebar layTitle;
     RecyclerView list;
     RecyclerAdapter adapter;
     RecyclerView.LayoutManager layoutManager;
@@ -68,14 +71,15 @@ public class FabsortActivity extends Activity implements OnStartDragListener {
         arrSortList = new ArrayList<FabSortList>();
 
         btn_reset = (ImageButton) findViewById(R.id.btn_reset);
-        btnBack = (ImageButton) findViewById(R.id.btnBack);
+        layTitle = findViewById(R.id.layTitle);
 
-        LinearLayout layout_status = (LinearLayout) findViewById(R.id.layout_status);
-
-        if(Build.VERSION.SDK_INT < 19) {
-            layout_status.setVisibility(View.GONE);
+        Window window = getWindow();
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(ContextCompat.getColor(getBaseContext(), tm.getTitleBarColor(0, 0)));
         }
-        layout_status.setBackgroundColor(Color.parseColor("#91be2e"));
+        layTitle.setBackgroundColorById(tm.getTitleBarColor(0, 0));
 
         setRemoveMode();
 
@@ -111,13 +115,6 @@ public class FabsortActivity extends Activity implements OnStartDragListener {
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
     }
 
     @Override

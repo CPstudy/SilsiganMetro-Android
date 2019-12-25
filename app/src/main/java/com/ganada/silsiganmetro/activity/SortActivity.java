@@ -9,6 +9,7 @@ import android.graphics.Color;
 import android.graphics.Point;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.SimpleItemAnimator;
@@ -19,6 +20,8 @@ import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -32,6 +35,7 @@ import com.ganada.silsiganmetro.common.OnStartDragListener;
 import com.ganada.silsiganmetro.R;
 import com.ganada.silsiganmetro.common.SimpleItemTouchHelperCallback;
 import com.ganada.silsiganmetro.util.ThemeManager;
+import com.ganada.silsiganmetro.view.CustomTitlebar;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -41,9 +45,10 @@ public class SortActivity extends Activity implements OnStartDragListener {
     private SharedPreferences mPref;
     private SharedPreferences.Editor mPrefEdit;
     DBManager dm;
+    ThemeManager tm;
 
+    CustomTitlebar layTitle;
     ImageButton btn_reset;
-    ImageButton btnBack;
     ImageButton btnRemove;
     RecyclerView list;
 
@@ -64,20 +69,22 @@ public class SortActivity extends Activity implements OnStartDragListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sort);
 
+        tm = new ThemeManager(this);
         dm = new DBManager(this);
         mPref = getSharedPreferences("Pref1", 0);
         mPrefEdit = mPref.edit();
 
+        layTitle = findViewById(R.id.layTitle);
         btn_reset = (ImageButton) findViewById(R.id.btn_reset);
-        btnBack = (ImageButton) findViewById(R.id.btnBack);
         btnRemove = (ImageButton) findViewById(R.id.btn_remove);
 
-        LinearLayout layout_status = (LinearLayout) findViewById(R.id.layout_status);
-
-        if(Build.VERSION.SDK_INT < 19) {
-            layout_status.setVisibility(View.GONE);
+        Window window = getWindow();
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(ContextCompat.getColor(getBaseContext(), tm.getTitleBarColor(0, 0)));
         }
-        layout_status.setBackgroundColor(Color.parseColor("#91be2e"));
+        layTitle.setBackgroundColorById(tm.getTitleBarColor(0, 0));
 
         Display display = getWindowManager().getDefaultDisplay();
         Point size = new Point();
@@ -161,13 +168,6 @@ public class SortActivity extends Activity implements OnStartDragListener {
                 bool_remove = !bool_remove;
                 setRemoveMode();
                 adapter.notifyDataSetChanged();
-            }
-        });
-
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
             }
         });
 

@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
+import android.os.AsyncTask;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -33,6 +34,11 @@ import com.nhn.android.naverlogin.ui.view.OAuthLoginButton;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
 
 public class SettingActivity extends Activity implements OAuthDelegator {
 
@@ -51,7 +57,6 @@ public class SettingActivity extends Activity implements OAuthDelegator {
     TextView txtID;
     Button btnMail;
     Button btnNeed;
-    SettingItem btnLogin;
     SettingItem btnFavorite;
     SettingItem btnLine1;
     SettingItem btnRefresh;
@@ -77,7 +82,6 @@ public class SettingActivity extends Activity implements OAuthDelegator {
         layoutLogin = findViewById(R.id.layoutLogin);
         layoutSuccess = findViewById(R.id.layoutSuccess);
         txtID = findViewById(R.id.txtID);
-        btnLogin = findViewById(R.id.btnLogin);
         btnMail = findViewById(R.id.btnMail);
         btnNeed = findViewById(R.id.btnNeed);
         btnFavorite = findViewById(R.id.btnFavorite);
@@ -252,8 +256,8 @@ public class SettingActivity extends Activity implements OAuthDelegator {
         btnLab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), LineActivity.class);
-                intent.putExtra(MetroConstant.KEY_LINE_NUMBER, LineManager.LINE_7);
+                Intent intent = new Intent(getApplicationContext(), LabActivity.class);
+                //intent.putExtra(MetroConstant.KEY_LINE_NUMBER, LineManager.LINE_7);
                 startActivity(intent);
             }
         });
@@ -270,24 +274,18 @@ public class SettingActivity extends Activity implements OAuthDelegator {
         btnVersion.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), HelperActivity.class);
+                Intent intent = new Intent(getApplicationContext(), HelpActivity.class);
                 startActivity(intent);
             }
         });
 
-        btnLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), LoginActivity.class);
-                startActivity(intent);
-            }
-        });
-
+        /*
         MetroOAuthHandler mOAuthLoginHandler = new MetroOAuthHandler(this, this);
 
         mOAuthLoginButton = findViewById(R.id.buttonOAuthLoginImg);
         mOAuthLoginButton.setOAuthLoginHandler(mOAuthLoginHandler);
         OAuthLogin.getInstance().startOauthLoginActivity(this, mOAuthLoginHandler);
+        */
 
     }
 
@@ -302,11 +300,64 @@ public class SettingActivity extends Activity implements OAuthDelegator {
         layoutLogin.setVisibility(View.GONE);
         layoutSuccess.setVisibility(View.VISIBLE);
         txtID.setText(token);
+        new LoginAsync().execute(token);
     }
 
     @Override
     public void onLoginFail() {
         Toast.makeText(this, "Login Fail", Toast.LENGTH_SHORT).show();
+    }
+
+    class LoginAsync extends AsyncTask<String, String, String> {
+
+        String resultString = "No Profile";
+
+        @Override
+        protected void onPreExecute() {
+            super.onPreExecute();
+        }
+
+        @Override
+        protected String doInBackground(String... strings) {
+            if(strings.length == 0) {
+                return null;
+            }
+
+            String token = strings[0];// 네이버 로그인 접근 토큰;
+            String header = token; // Bearer 다음에 공백 추가
+            try {
+                //String apiURL = "https://openapi.naver.com/v1/nid/me";
+                String apiURL = "https://guide94.cafe24.com/silsiganmetro/insert-train-no.php";
+                URL url = new URL(apiURL);
+                HttpURLConnection con = (HttpURLConnection)url.openConnection();
+                con.setRequestMethod("POST");
+                con.setRequestProperty("token", header);
+                int responseCode = con.getResponseCode();
+                BufferedReader br;
+                if(responseCode == 200) { // 정상 호출
+                    br = new BufferedReader(new InputStreamReader(con.getInputStream()));
+                } else {  // 에러 발생
+                    br = new BufferedReader(new InputStreamReader(con.getErrorStream()));
+                }
+                String inputLine;
+                StringBuffer response = new StringBuffer();
+                while ((inputLine = br.readLine()) != null) {
+                    response.append(inputLine);
+                }
+                br.close();
+                System.out.println(response.toString());
+                resultString = response.toString();
+            } catch (Exception e) {
+                System.out.println(e);
+            }
+            return null;
+        }
+
+        @Override
+        protected void onPostExecute(String s) {
+            txtID.setText(resultString);
+            super.onPostExecute(s);
+        }
     }
 }
 

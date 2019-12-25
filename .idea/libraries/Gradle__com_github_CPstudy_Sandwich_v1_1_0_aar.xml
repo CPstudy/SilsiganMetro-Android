@@ -1,11 +1,11 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.CPstudy:Sandwich:v1.1.0@aar">
     <ANNOTATIONS>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Sandwich-v1.1.0.aar/e42d90d19af65b52a5b361aae42dfd1c/annotations.zip!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1cb154b757bc4d4dd0a807127aee2ce0/annotations.zip!/" />
     </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Sandwich-v1.1.0.aar/e42d90d19af65b52a5b361aae42dfd1c/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/Sandwich-v1.1.0.aar/e42d90d19af65b52a5b361aae42dfd1c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1cb154b757bc4d4dd0a807127aee2ce0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1cb154b757bc4d4dd0a807127aee2ce0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

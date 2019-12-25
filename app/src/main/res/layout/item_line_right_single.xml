@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:id="@+id/layoutBack"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:clipChildren="false"
+	android:clipToPadding="false"
+	android:background="@color/lab_background">
+
+	<View
+		android:id="@+id/view_divider"
+		android:layout_width="match_parent"
+		android:layout_height="1dp"
+		android:layout_alignParentBottom="true"
+		android:background="@color/lab_divider" />
+
+	<LinearLayout
+		android:id="@+id/layout_line"
+		android:layout_width="wrap_content"
+		android:layout_height="match_parent"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="46dp"
+		android:layout_centerVertical="true">
+
+		<com.ganada.silsiganmetro.view.LineRail
+			android:id="@+id/lineDown"
+			android:layout_width="30dp"
+			android:layout_height="match_parent"/>
+
+		<com.ganada.silsiganmetro.view.LineRail
+			android:id="@+id/lineUp"
+			android:layout_width="30dp"
+			android:layout_height="match_parent"/>
+
+	</LinearLayout>
+
+	<com.ganada.silsiganmetro.view.TrainLocation
+		android:id="@+id/trainLocation"
+		android:layout_width="182dp"
+		android:layout_height="match_parent"
+		android:layout_marginRight="-30dp"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/titleBar"
+		android:focusable="false">
+
+		<com.ganada.silsiganmetro.view.MiniTrain
+			android:id="@+id/sampleDown"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="-10dp"
+			android:clipChildren="false"
+			android:clipToPadding="false"
+			android:visibility="visible"
+			app:updown="1"/>
+
+		<com.ganada.silsiganmetro.view.MiniTrain
+			android:id="@+id/sampleUp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginStart="79dp"
+			android:clipChildren="false"
+			android:clipToPadding="false"
+			android:visibility="visible"
+			app:updown="0"/>
+
+	</com.ganada.silsiganmetro.view.TrainLocation>
+
+	<RelativeLayout
+		android:id="@+id/layout_station"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_centerVertical="true"
+		android:layout_marginLeft="@dimen/margin_default"
+		android:layout_marginRight="@dimen/margin_default">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_centerVertical="true"
+			android:orientation="vertical">
+
+			<LinearLayout
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical"
+				android:orientation="horizontal">
+
+				<TextView
+					android:id="@+id/txtStation"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_gravity="center"
+					android:layout_marginRight="@dimen/margin_small"
+					android:text="@string/station"
+					android:textColor="@color/lab_station"
+					android:textSize="@dimen/txt_station"/>
+
+				<ImageView
+					android:id="@+id/imgExpress1"
+					android:layout_width="@dimen/icon_express"
+					android:layout_height="@dimen/icon_express"
+					android:layout_marginRight="@dimen/margin_small"
+					android:src="@drawable/img_express"
+					android:scaleType="centerCrop"/>
+
+				<ImageView
+					android:id="@+id/imgExpress2"
+					android:layout_width="@dimen/icon_express"
+					android:layout_height="@dimen/icon_express"
+					android:src="@drawable/img_express2"
+					android:scaleType="centerCrop"/>
+
+			</LinearLayout>
+
+			<TextView
+				android:id="@+id/txtSubtext"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="left|center"
+				android:gravity="left"
+				android:text="@string/station_sub"
+				android:textColor="@color/lab_subtext"
+				android:textSize="@dimen/lab_txt_statation_sub"/>
+
+		</LinearLayout>
+	</RelativeLayout>
+</RelativeLayout>

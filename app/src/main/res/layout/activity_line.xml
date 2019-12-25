@@ -16,14 +16,6 @@
         android:layout_below="@+id/titleBar"
         app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
 
-    <com.ganada.silsiganmetro.view.TrainLocation
-        android:id="@+id/testTrain"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/titleBar"
-        android:clipChildren="false"
-        android:clipToPadding="false"/>
-
     <com.ganada.silsiganmetro.view.CustomTitlebar
         android:id="@+id/titleBar"
         android:layout_width="match_parent"

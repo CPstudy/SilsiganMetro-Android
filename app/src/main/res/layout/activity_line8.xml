@@ -11,7 +11,20 @@
 		android:id="@+id/layTitle"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
-		app:text="8호선"/>
+		app:text="8호선">
+
+		<Button
+			android:id="@+id/btnPrimary"
+			android:layout_width="50dp"
+			android:layout_height="@dimen/btn_back"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/bg_btn_transparent"
+			android:layout_centerVertical="true"
+			android:visibility="gone"
+			android:text="열번"
+			android:textColor="#ffffff"/>
+
+	</com.ganada.silsiganmetro.view.CustomTitlebar>
 
 	<RelativeLayout
 		android:layout_width="match_parent"
@@ -28,31 +41,16 @@
 			android:fadingEdge="none"
 			android:scrollbars="none" />
 
-		<RelativeLayout
+		<com.ganada.silsiganmetro.view.RefreshButton
+			android:id="@+id/btnRefresh"
 			android:layout_width="50dp"
-			android:layout_height="50dp"
+			android:layout_height="66dp"
 			android:layout_alignParentBottom="true"
 			android:layout_alignParentEnd="true"
 			android:layout_alignParentRight="true"
 			android:layout_marginBottom="30dp"
 			android:layout_marginEnd="20dp"
-			android:layout_marginRight="20dp">
-
-			<Button
-				style="?android:attr/borderlessButtonStyle"
-				android:id="@+id/btnRefresh"
-				android:layout_width="match_parent"
-				android:layout_height="match_parent"
-				android:background="@drawable/btn_refresh" />
-
-			<ImageView
-				android:id="@+id/imgTime"
-				android:layout_width="28dp"
-				android:layout_height="28dp"
-				android:layout_centerInParent="true"
-				android:src="@drawable/ic_refresh_white_24dp" />
-
-		</RelativeLayout>
+			android:layout_marginRight="20dp"/>
 
 
 	</RelativeLayout>

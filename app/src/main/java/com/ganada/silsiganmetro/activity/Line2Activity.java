@@ -35,6 +35,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.ganada.silsiganmetro.util.CalcDate;
+import com.ganada.silsiganmetro.util.DialogManager;
 import com.ganada.silsiganmetro.util.LineManager;
 import com.ganada.silsiganmetro.util.DBManager;
 import com.ganada.silsiganmetro.real.GetType;
@@ -44,6 +45,7 @@ import com.ganada.silsiganmetro.real.Realtime;
 import com.ganada.silsiganmetro.MetroApplication;
 import com.ganada.silsiganmetro.util.ThemeManager;
 import com.ganada.silsiganmetro.view.CustomTitlebar;
+import com.ganada.silsiganmetro.view.RefreshButton;
 
 
 import org.json.JSONArray;
@@ -51,6 +53,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.Locale;
 
 public class Line2Activity extends Activity {
@@ -68,11 +71,13 @@ public class Line2Activity extends Activity {
 	ListView list;
 	Animation animSpin;
 	RelativeLayout layout_title;
-	ImageView imgTime;
-	Button btnRefresh;
+	RefreshButton btnRefresh;
 	TextView btnInfo;
 	ImageButton btnBack;
+	Button btnPrimary;
 	View footer;
+
+	HashMap<String, String> mapPrimary = new HashMap<>();
 
 	boolean boolInfo = false;
 
@@ -83,6 +88,8 @@ public class Line2Activity extends Activity {
 	int i_favorite;
 	boolean bool_pos;
 	boolean bool_loaded;
+	boolean isPrimary = false;
+	String receivedTime = "--";
 	String POS_LINE = "pos_line2";
 	String BOOL_LINE = "bool_line2";
 	String xml;
@@ -93,6 +100,7 @@ public class Line2Activity extends Activity {
 	String[] trainNo = new String[MAX_TRAIN];
 	String[] trainHead = new String[MAX_TRAIN];
 	String[] trainStatus = new String[MAX_TRAIN];
+	String[] trainPrimary = new String[MAX_TRAIN];
 	String[] xmlNumber = new String[MAX_XML];
 	String[] xmlDst = new String[MAX_XML];
 
@@ -104,8 +112,8 @@ public class Line2Activity extends Activity {
 		arCustomList = new ArrayList<>();
 		ListNorm listnorm;
 		layTitle = findViewById(R.id.layTitle);
-		imgTime = findViewById(R.id.imgTime);
 		btnRefresh = findViewById(R.id.btnRefresh);
+		btnPrimary = findViewById(R.id.btnPrimary);
 		footer = getLayoutInflater().inflate(R.layout.item_footer, null, false);
 
 		mPref = getSharedPreferences("Pref1", 0);
@@ -299,6 +307,22 @@ public class Line2Activity extends Activity {
 
 		});
 
+		btnPrimary.setVisibility(View.VISIBLE);
+		btnPrimary.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				if(isPrimary) {
+					isPrimary = false;
+					btnPrimary.setText("열번");
+				} else {
+					isPrimary = true;
+					btnPrimary.setText("편성");
+				}
+
+				adapter.notifyDataSetChanged();
+			}
+		});
+
 	}
 
 	public class PersonViewHolder {
@@ -482,11 +506,21 @@ public class Line2Activity extends Activity {
 
 				if (boolInfo) {
 					for (int i = 0; i < MAX_TRAIN; i++) {
+						final int index = i;
 						StringBuffer sb = new StringBuffer();
 						sb.append(trainHead[i]);
-						sb.append("\n");
-						sb.append(trainNo[i]);
-						if(mPref.getInt("iTrainStatus", 0) == 1) {
+						if(!isPrimary) {
+							sb.append("\n");
+							sb.append(trainNo[i]);
+						} else {
+							sb.append("\n");
+							if(trainPrimary[i] != null) {
+								sb.append(trainPrimary[i]);
+							} else {
+								sb.append("--");
+							}
+						}
+						if (mPref.getInt("iTrainStatus", 0) == 1) {
 							sb.append("\n");
 							sb.append(trainStatus[i]);
 						}
@@ -502,6 +536,13 @@ public class Line2Activity extends Activity {
 									viewHolder.img_train_down_norm.setVisibility(View.VISIBLE);
 									viewHolder.btn_train_down.setText(sb.toString());
 									viewHolder.icon_train_down.setImageResource(tm.getTrainIcon(iTheme, 1, false));
+
+									viewHolder.btn_train_down.setOnClickListener(new View.OnClickListener() {
+										@Override
+										public void onClick(View v) {
+											startLink(trainNo[index]);
+										}
+									});
 
 									if(trainStatus[i].equals("출발")) {
 										//viewHolder.btn_train_up.setLayoutParams(new RelativeLayout.LayoutParams(param_pos));
@@ -524,6 +565,13 @@ public class Line2Activity extends Activity {
 									viewHolder.img_train_up_norm.setVisibility(View.VISIBLE);
 									viewHolder.btn_train_up.setText(sb.toString());
 									viewHolder.icon_train_up.setImageResource(tm.getTrainIcon(iTheme, 0, false));
+
+									viewHolder.btn_train_up.setOnClickListener(new View.OnClickListener() {
+										@Override
+										public void onClick(View v) {
+											startLink(trainNo[index]);
+										}
+									});
 
 									if(trainStatus[i].equals("출발")) {
 										//viewHolder.btn_train_up.setLayoutParams(new RelativeLayout.LayoutParams(param_pos));
@@ -551,6 +599,13 @@ public class Line2Activity extends Activity {
 									viewHolder.btn_train_up.setText(sb.toString());
 									viewHolder.icon_train_up.setImageResource(tm.getTrainIcon(iTheme, 0, false));
 
+									viewHolder.btn_train_up.setOnClickListener(new View.OnClickListener() {
+										@Override
+										public void onClick(View v) {
+											startLink(trainNo[index]);
+										}
+									});
+
 									if(trainStatus[i].equals("출발")) {
 										//viewHolder.btn_train_up.setLayoutParams(new RelativeLayout.LayoutParams(param_pos));
 										pm.addRule(RelativeLayout.ALIGN_PARENT_TOP, RelativeLayout.TRUE);
@@ -572,6 +627,13 @@ public class Line2Activity extends Activity {
 									viewHolder.img_train_down_norm.setVisibility(View.VISIBLE);
 									viewHolder.btn_train_down.setText(sb.toString());
 									viewHolder.icon_train_down.setImageResource(tm.getTrainIcon(iTheme, 1, false));
+
+									viewHolder.btn_train_down.setOnClickListener(new View.OnClickListener() {
+										@Override
+										public void onClick(View v) {
+											startLink(trainNo[index]);
+										}
+									});
 
 									if(trainStatus[i].equals("출발")) {
 										//viewHolder.btn_train_up.setLayoutParams(new RelativeLayout.LayoutParams(param_pos));
@@ -687,42 +749,7 @@ public class Line2Activity extends Activity {
 				}
 			}
 
-			viewHolder.btn_train_up.setOnClickListener(new View.OnClickListener() {
-				@Override
-				public void onClick(View view) {
-					CalcDate cd = new CalcDate();
-					StringBuffer sb = new StringBuffer();
-					sb.append("https://rail.blue/railroad/logis/Default.aspx?date=");
-					sb.append(cd.getDate());
-					sb.append("&train=");
-					sb.append("S");
-					sb.append(viewHolder.btn_train_up.getText().toString().split("\n")[1]);
 
-					/*DialogManager dialog = new DialogManager(Line2Activity.this);
-					dialog.alertTrainDialog(sb.toString());*/
-
-					Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(sb.toString()));
-					startActivity(intent);
-				}
-			});
-
-			viewHolder.btn_train_down.setOnClickListener(new View.OnClickListener() {
-				@Override
-				public void onClick(View view) {
-					CalcDate cd = new CalcDate();
-					StringBuffer sb = new StringBuffer();
-					sb.append("https://rail.blue/railroad/logis/Default.aspx?date=");
-					sb.append(cd.getDate());
-					sb.append("&train=");
-					sb.append("S");
-					sb.append(viewHolder.btn_train_down.getText().toString().split("\n")[1]);
-
-					/*DialogManager dialog = new DialogManager(Line2Activity.this);
-					dialog.alertTrainDialog(sb.toString());*/
-					Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(sb.toString()));
-					startActivity(intent);
-				}
-			});
 
             convertView.setOnClickListener(new View.OnClickListener() {
                 @Override
@@ -753,6 +780,19 @@ public class Line2Activity extends Activity {
 
 			return convertView;
 		}
+	}
+
+	public void startLink(String number) {
+		CalcDate cd = new CalcDate();
+		StringBuffer sb = new StringBuffer();
+		sb.append("https://rail.blue/railroad/logis/Default.aspx?date=");
+		sb.append(cd.getDate());
+		sb.append("&train=");
+		sb.append("S");
+		sb.append(number);
+
+		DialogManager dialog = new DialogManager(Line2Activity.this);
+		dialog.alertTrainDialog(sb.toString(), number);
 	}
 
 	public void SetFavor(int position, String station) {
@@ -814,7 +854,7 @@ public class Line2Activity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			imgTime.startAnimation(animSpin);
+			btnRefresh.startAnimation();
 		}
 
 		// 수행 >> 끝나면 종료
@@ -839,8 +879,11 @@ public class Line2Activity extends Activity {
 			}
 
 			Realtime rt = new Realtime();
+			mapPrimary = rt.getPrimaryList("1002");
 			String result = rt.getLine(sum);
 			jsonParserList(result);
+
+
 			return sum;
 		}
 
@@ -848,7 +891,8 @@ public class Line2Activity extends Activity {
 		@Override
 		protected void onPostExecute(String result) {
 			super.onPostExecute(result);
-			imgTime.clearAnimation();
+			btnRefresh.stopAnimation();
+			btnRefresh.setTime(receivedTime);
 			adapter.notifyDataSetChanged();
 			if(result != null){
 				Log.d("ASYNC", "result = " + result);
@@ -897,6 +941,8 @@ public class Line2Activity extends Activity {
 
 		try {
 			JSONObject json = new JSONObject(pRecvServerPage);
+			receivedTime = json.getString("time");
+			json = json.getJSONObject("result");
 			JSONArray jArr = json.getJSONArray("realtimePositionList");
 
 			String[] jsonName = {"statnId", "updnLine", "trainNo", "statnTnm", "trainSttus", "directAt"};
@@ -963,6 +1009,10 @@ public class Line2Activity extends Activity {
 				} else {
 					trainStatus[i] = "출발";
 				}
+
+				trainPrimary[i] = mapPrimary.get(trainNo[i]);
+
+				Log.e("primary", trainNo[i] + " ::: " + mapPrimary.get(trainNo[i]));
 			}
 
 			return parseredData;
@@ -987,6 +1037,7 @@ public class Line2Activity extends Activity {
 			trainNo[i] = null;
 			trainHead[i] = null;
 			trainStatus[i] = null;
+			trainPrimary[i] = null;
 		}
 	}
 
@@ -997,13 +1048,13 @@ public class Line2Activity extends Activity {
 				iTime--;
 			} else {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 				iTime = iSec;
 			}
 
 			if(iTime == 0 && iSec == 0) {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 			} else {
 				Log.e("iTime >>>>>> ", "iTime = " + iTime);
 				mHandler.sendEmptyMessageDelayed(0, 1000);
@@ -1016,7 +1067,7 @@ public class Line2Activity extends Activity {
 		super.onPause();
 		mHandler.removeMessages(0);
 		myAsyncTask.cancel(true);
-		imgTime.clearAnimation();
+		btnRefresh.stopAnimation();
 	}
 
 	@Override

@@ -12,6 +12,8 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme">
+        <activity android:name=".activity.HelpActivity"></activity>
+        <activity android:name=".activity.TrainInfoActivity" />
         <activity
             android:name=".activity.MainActivity"
             android:label="@string/app_name" />
@@ -83,7 +85,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".laboratory.LineActivity" />
-        <activity android:name=".activity.CaptureActivity" />
+        <activity android:name=".activity.WebActivity" />
         <activity android:name=".activity.LoginActivity" />
     </application>
 

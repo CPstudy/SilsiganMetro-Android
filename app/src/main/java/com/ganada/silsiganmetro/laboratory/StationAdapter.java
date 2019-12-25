@@ -13,63 +13,74 @@ import android.widget.TextView;
 
 import com.ganada.silsiganmetro.R;
 import com.ganada.silsiganmetro.listitem.LineStation;
-import com.ganada.silsiganmetro.util.DBManager;
+import com.ganada.silsiganmetro.listitem.TrainList;
 import com.ganada.silsiganmetro.util.LineManager;
 import com.ganada.silsiganmetro.util.ThemeManager;
-import com.ganada.silsiganmetro.util.Units;
 import com.ganada.silsiganmetro.view.LineRail;
+import com.ganada.silsiganmetro.view.MiniTrain;
+import com.ganada.silsiganmetro.view.TrainLocation;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
-    private ArrayList<LineStation> stations;
+    private static final int SEPERATOR = 0;
+    private static final int LINE_LEFT = 1;
+    private static final int LINE_RIGHT = 2;
+
+    private List<LineStation> stations;
+    private List<TrainList> trains = new ArrayList<>();
     private ThemeManager tm;
     private int lineNumber;
+    private int listHeight;
+    private int sepHeight;
+    private int trainHeight;
 
-    StationAdapter(ArrayList<LineStation> items, ThemeManager tm, int lineNumber){
+    StationAdapter(List<LineStation> items, ThemeManager tm, int lineNumber, int listHeight, int sepHeight){
         stations = items;
         this.tm = tm;
         this.lineNumber = lineNumber;
+        this.listHeight = listHeight;
+        this.sepHeight = sepHeight;
+    }
+
+    public void setTrains(List<TrainList> trains, int trainHeight) {
+        this.trains = trains;
+        this.trainHeight = trainHeight;
     }
 
     @Override
     public int getItemViewType(int position) {
         if(stations.get(position).number.equals("1000000000")) {
-            return 1;
+            return SEPERATOR;
         } else {
-            if(lineNumber != LineManager.LINE_1 && lineNumber != LineManager.LINE_9 && lineNumber != LineManager.LINE_GONGHANG) {
-                return 2;
+            if(tm.getListDirection() == 0) {
+                return LINE_LEFT;
             } else {
-                return 3;
+                return LINE_RIGHT;
             }
-        }
-    }
-
-    public int getItemLayoutId(int type) {
-        switch(type) {
-            case 1:
-                return R.layout.item_seperator;
-            case 2:
-            case 3:
-            default:
-                return R.layout.item_test_single;
-
         }
     }
 
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(getItemLayoutId(viewType), parent, false);
+
         switch(viewType) {
-            case 1:
+            case SEPERATOR:
+                View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_seperator, parent, false);
                 return new ViewHolderSeperator(view);
 
-            case 2:
+            case LINE_LEFT:
+                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_line_left_single, parent, false);
                 return new ViewHolderSingle(view);
-            case 3:
+
+            case LINE_RIGHT:
             default:
-                return new ViewHolderDouble(view);
+                view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_line_right_single, parent, false);
+                return new ViewHolderSingle(view);
         }
     }
 
@@ -81,17 +92,15 @@ public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
     @Override
     public void onBindViewHolder(@NonNull final RecyclerView.ViewHolder holder, final int position) {
         switch(getItemViewType(position)) {
-            case 1:
+            case SEPERATOR:
                 ViewHolderSeperator vs = (ViewHolderSeperator) holder;
                 vs.bindView(position);
                 break;
 
-            case 2:
+            case LINE_LEFT:
+            case LINE_RIGHT:
                 ViewHolderSingle v = (ViewHolderSingle) holder;
                 v.bindView(position);
-                break;
-
-            case 3:
                 break;
         }
     }
@@ -100,6 +109,7 @@ public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         LineStation station;
 
+        TrainLocation trainLocation;
         RelativeLayout layoutBack;
         TextView txtStation;
         TextView txtSubtext;
@@ -110,6 +120,7 @@ public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         ViewHolderSingle(View itemView) {
             super(itemView);
+            trainLocation = itemView.findViewById(R.id.trainLocation);
             layoutBack = itemView.findViewById(R.id.layoutBack);
             txtStation = itemView.findViewById(R.id.txtStation);
             txtSubtext = itemView.findViewById(R.id.txtSubtext);
@@ -121,13 +132,30 @@ public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         void bindView(int position) {
             RecyclerView.LayoutParams param = (RecyclerView.LayoutParams) layoutBack.getLayoutParams();
-            param.height = Units.dp(tm.getListHeight());
+            param.height = listHeight;
             layoutBack.setLayoutParams(param);
 
             station = stations.get(position);
 
             lineUp.setStyle(lineNumber, station.info);
             lineDown.setStyle(lineNumber, station.info);
+            trainLocation.clearView();
+
+            for(TrainList train : trains) {
+                if(station.number.equals(train.stationNo)) {
+                    trainLocation.addTrain(
+                            listHeight,
+                            trainHeight,
+                            train.trainDst,
+                            train.trainNo,
+                            train.trainSttus,
+                            train.updown,
+                            0,
+                            train.express,
+                            lineNumber
+                    );
+                }
+            }
 
             if(station.subText.equals("")) {
                 txtSubtext.setVisibility(View.GONE);
@@ -162,13 +190,6 @@ public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
         }
     }
 
-    class ViewHolderDouble extends RecyclerView.ViewHolder {
-
-        ViewHolderDouble(View itemView) {
-            super(itemView);
-        }
-    }
-
     class ViewHolderSeperator extends BindViewHolder {
 
         RelativeLayout layoutBack;
@@ -187,7 +208,7 @@ public class StationAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         void bindView(int position) {
             RecyclerView.LayoutParams par = (RecyclerView.LayoutParams) layoutBack.getLayoutParams();
-            par.height = Units.dp(25);
+            par.height = sepHeight;
             layoutBack.setLayoutParams(par);
             txtText.setText(stations.get(position).station);
         }

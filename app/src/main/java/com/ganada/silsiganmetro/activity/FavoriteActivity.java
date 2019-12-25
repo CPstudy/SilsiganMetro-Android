@@ -14,6 +14,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.BaseAdapter;
@@ -34,6 +36,7 @@ import com.ganada.silsiganmetro.listitem.ListTrain;
 import com.ganada.silsiganmetro.R;
 import com.ganada.silsiganmetro.common.StringRefactor;
 import com.ganada.silsiganmetro.util.ThemeManager;
+import com.ganada.silsiganmetro.view.CustomTitlebar;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -60,12 +63,9 @@ public class FavoriteActivity extends Activity {
     ListFavoriteAdapter adapter;
     ListView list;
     Animation animSpin;
-    RelativeLayout layout_title;
+    CustomTitlebar layout_title;
     ImageView imgTime;
     Button btnRefresh;
-    TextView btnInfo;
-    ImageButton btnBack;
-    ImageButton btnSort;
     View footer;
 
     int iTime = 5;
@@ -82,9 +82,6 @@ public class FavoriteActivity extends Activity {
         layout_title = findViewById(R.id.layTitle);
         imgTime = findViewById(R.id.imgTime);
         btnRefresh = findViewById(R.id.btnRefresh);
-        btnInfo =  findViewById(R.id.btnInfo);
-        btnBack = findViewById(R.id.btnBack);
-        btnSort = findViewById(R.id.btn_sort);
         footer = getLayoutInflater().inflate(R.layout.item_footer, null, false);
         LinearLayout layout_status = findViewById(R.id.layout_status);
 
@@ -99,11 +96,14 @@ public class FavoriteActivity extends Activity {
         iSec = mPref.getInt("timerefresh", 0) * 5;
         iTime = iSec;
 
-        if(Build.VERSION.SDK_INT < 19) {
-            layout_status.setVisibility(View.GONE);
+        Window window = getWindow();
+        if (Build.VERSION.SDK_INT > Build.VERSION_CODES.LOLLIPOP) {
+            window.clearFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
+            window.addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS);
+            window.setStatusBarColor(ContextCompat.getColor(getBaseContext(), tm.getTitleBarColor(0, 0)));
         }
-        layout_status.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), tm.getTitleBarColor(0, 0)));
-        layout_title.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), tm.getTitleBarColor(0, 0)));
+        layout_title.setBackgroundColorById(tm.getTitleBarColor(0, 0));
+
         animSpin = AnimationUtils.loadAnimation(this, R.anim.spin_anim);
 
         appStart();
@@ -114,27 +114,12 @@ public class FavoriteActivity extends Activity {
 
         getRealFavorite();
 
-        btnBack.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                finish();
-            }
-        });
-
         btnRefresh.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 btnRefresh.setEnabled(false);
                 getRealFavorite();
                 iTime = 5;
-            }
-        });
-
-        btnSort.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), FabsortActivity.class);
-                startActivity(intent);
             }
         });
 

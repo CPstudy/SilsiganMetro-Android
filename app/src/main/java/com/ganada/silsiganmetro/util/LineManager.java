@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.util.Log;
 
+import com.ganada.silsiganmetro.ResourceUtil;
 import com.ganada.silsiganmetro.activity.BundangActivity;
 import com.ganada.silsiganmetro.activity.GonghangActivity;
 import com.ganada.silsiganmetro.activity.KChoonActivity;
@@ -313,6 +314,12 @@ public class LineManager {
             case "안암(고대병원앞)":
                 return "안암";
 
+            case "48":
+                return "신내";
+
+            case "938":
+                return "보훈병원";
+
             case "동인천 (급행)":
                 return "동인천 급행";
 
@@ -354,6 +361,34 @@ public class LineManager {
 
             default:
                 return dst + "행";
+        }
+    }
+
+    public String getTrainDst(String destination) {
+        switch(destination) {
+            case "938":
+                return "보훈병원";
+
+            case "응암순환(상선)":
+                return "응암순환";
+
+            case "응암(하선-종착)":
+                return "응암순환";
+
+            case "대흥(서강대앞)":
+                return "대흥";
+
+            case "안암(고대병원앞)":
+                return "안암";
+
+            case "48":
+                return "신내";
+
+            case "인천공항2터미널":
+                return "인천공항2";
+
+            default:
+                return destination;
         }
     }
 
@@ -478,12 +513,6 @@ public class LineManager {
             for (int i = 0; i < jArr.length(); i++) {
                 JSONObject json = jArr.getJSONObject(i);
 
-                if(json.getString("staNum").equals("1000000000")) {
-                    posY += Units.dp(tm.getListSepHeight());
-                } else {
-                    posY += Units.dp(tm.getListHeight());
-                }
-
                 array.add(new LineStation(
                         json.getString("staName"),
                         json.getString("staSubText"),
@@ -494,6 +523,14 @@ public class LineManager {
                         json.getInt("staExpress"),
                         posY
                 ));
+
+                if(json.getString("staNum").equals("1000000000")) {
+                    posY += ResourceUtil.toPixel(context, tm.getListSepHeight());
+                } else {
+                    posY += ResourceUtil.toPixel(context, tm.getListHeight());
+                }
+
+                Log.e("Pos Y", "Station Pos Y = " + posY);
             }
 
             return array;

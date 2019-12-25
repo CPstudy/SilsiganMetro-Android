@@ -41,6 +41,7 @@ import com.ganada.silsiganmetro.R;
 import com.ganada.silsiganmetro.real.Realtime;
 import com.ganada.silsiganmetro.MetroApplication;
 import com.ganada.silsiganmetro.view.CustomTitlebar;
+import com.ganada.silsiganmetro.view.RefreshButton;
 import com.ganada.silsiganmetro.view.StrokeTextView;
 import com.ganada.silsiganmetro.util.ThemeManager;
 
@@ -67,6 +68,7 @@ public class GonghangActivity extends Activity {
 
 	private MyAsyncTask myAsyncTask;
 
+	LineManager lineManager;
 	ThemeManager tm;
 	MetroApplication sv;
 	ArrayList<ListExpress> arCustomList;
@@ -74,8 +76,7 @@ public class GonghangActivity extends Activity {
 	Animation animSpin;
 	CustomTitlebar layTitle;
 	RelativeLayout layout_title;
-	ImageView imgTime;
-	Button btnRefresh;
+	RefreshButton btnRefresh;
 	TextView btnInfo;
 	ImageButton btnBack;
 
@@ -89,6 +90,7 @@ public class GonghangActivity extends Activity {
 	int iPosition;
 	int i_favorite;
 	boolean bool_pos;
+	String receivedTime = "--";
 	String POS_LINE = "pos_gonghang";
 	String BOOL_LINE = "bool_gonghang";
 	String xml;
@@ -108,13 +110,13 @@ public class GonghangActivity extends Activity {
 		arCustomList = new ArrayList<>();
 		ListExpress listexpress;
 		layTitle = findViewById(R.id.layTitle);
-		imgTime = findViewById(R.id.imgTime);
 		btnInfo = findViewById(R.id.btnInfo);
 		btnRefresh = findViewById(R.id.btnRefresh);
 		footer = getLayoutInflater().inflate(R.layout.item_footer, null, false);
 		mPref = getSharedPreferences("Pref1", 0);
 		mPrefEdit = mPref.edit();
 		tm = new ThemeManager(getBaseContext());
+		lineManager = new LineManager(getBaseContext());
 		iTheme = mPref.getInt("iTheme", 0);
 
 		Window window = getWindow();
@@ -793,7 +795,7 @@ public class GonghangActivity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			imgTime.startAnimation(animSpin);
+			btnRefresh.startAnimation();
 		}
 
 		// 수행 >> 끝나면 종료
@@ -817,7 +819,8 @@ public class GonghangActivity extends Activity {
 		@Override
 		protected void onPostExecute(String result) {
 			super.onPostExecute(result);
-			imgTime.clearAnimation();
+			btnRefresh.stopAnimation();
+			btnRefresh.setTime(receivedTime);
 			adapter.notifyDataSetChanged();
 			if(result != null){
 				Log.d("ASYNC", "result = " + result);
@@ -924,6 +927,8 @@ public class GonghangActivity extends Activity {
 
 		try {
 			JSONObject json = new JSONObject(pRecvServerPage);
+			receivedTime = json.getString("time");
+            json = json.getJSONObject("result");
 			JSONArray jArr = json.getJSONArray("realtimePositionList");
 
 			String[] jsonName = {"statnId", "updnLine", "trainNo", "statnTnm", "trainSttus", "directAt"};
@@ -943,13 +948,7 @@ public class GonghangActivity extends Activity {
 				station[i] = Integer.parseInt(parseredData[i][0]);
 				status[i] = Integer.parseInt(parseredData[i][1]);
 				trainNo[i] = parseredData[i][2].replace("A", "");
-				if(parseredData[i][3].equals("인천국제공항")) {
-					trainHead[i] = tm.changeWord("인천공항1");
-				} else if(parseredData[i][3].equals("110")) {
-					trainHead[i] = tm.changeWord("인천공항2");
-				} else {
-					trainHead[i] = tm.changeWord(parseredData[i][3]);
-				}
+				trainHead[i] = tm.changeWord(lineManager.getTrainDst(parseredData[i][3]));
 				trainStatus[i] = parseredData[i][4];
 				if(trainStatus[i].equals("0")) {
 					trainStatus[i] = "진입";
@@ -991,13 +990,13 @@ public class GonghangActivity extends Activity {
 				iTime--;
 			} else {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 				iTime = iSec;
 			}
 
 			if(iTime == 0 && iSec == 0) {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 			} else {
 				Log.e("iTime >>>>>> ", "iTime = " + iTime);
 				mHandler.sendEmptyMessageDelayed(0, 1000);
@@ -1010,7 +1009,7 @@ public class GonghangActivity extends Activity {
 		super.onPause();
 		mHandler.removeMessages(0);
 		myAsyncTask.cancel(true);
-		imgTime.clearAnimation();
+		btnRefresh.stopAnimation();
 	}
 
 	@Override

@@ -24,7 +24,7 @@ public class CalcDate {
 
     public String getDate() {
         String str;
-        if(hour >= 0 && hour <= 4) {
+        if(hour >= 0 && hour <= 3) {
             ca.add(Calendar.DATE, -1);
             year = ca.get(Calendar.YEAR);
             month = ca.get(Calendar.MONTH) + 1;

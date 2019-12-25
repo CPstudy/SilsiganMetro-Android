@@ -52,6 +52,10 @@ public class ThemeManager {
         return mPref.getInt("iTheme", 0);
     }
 
+    public int getListDirection() {
+        return mPref.getInt("iLineStatus", 0);
+    }
+
     public void setStationFontSize(int size) {
         i_station_font_size = size;
         mPrefEdit.putInt("iStationFontSize", i_station_font_size);

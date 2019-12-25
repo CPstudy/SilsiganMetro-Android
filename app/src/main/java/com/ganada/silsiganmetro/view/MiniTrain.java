@@ -1,24 +1,37 @@
 package com.ganada.silsiganmetro.view;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.TypedArray;
+import android.graphics.Rect;
+import android.support.annotation.Nullable;
 import android.support.constraint.ConstraintLayout;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.LayoutInflater;
+import android.view.MotionEvent;
 import android.view.View;
+import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.ImageView;
+import android.widget.RelativeLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.ganada.silsiganmetro.R;
+import com.ganada.silsiganmetro.activity.ThemeActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class MiniTrain extends ConstraintLayout {
+public class MiniTrain extends FrameLayout {
 
     final static int UP = 0;
     final static int DOWN = 1;
 
+    private Context context;
+
+    private ConstraintLayout layoutBack;
     private TextView txtInfo;
     private ImageView imgUp;
     private ImageView imgDown;
@@ -31,11 +44,13 @@ public class MiniTrain extends ConstraintLayout {
 
     public MiniTrain(Context context) {
         super(context);
+        this.context = context;
         init(context, null);
     }
 
     public MiniTrain(Context context, AttributeSet attrs) {
         super(context, attrs);
+        this.context = context;
         init(context, attrs);
     }
 
@@ -47,6 +62,7 @@ public class MiniTrain extends ConstraintLayout {
             updown = a.getInt(R.styleable.MiniTrain_updown, 0);
         }
 
+        layoutBack = v.findViewById(R.id.layoutBack);
         txtInfo = v.findViewById(R.id.txtInfo);
         imgUp = v.findViewById(R.id.imgUp);
         imgDown = v.findViewById(R.id.imgDown);

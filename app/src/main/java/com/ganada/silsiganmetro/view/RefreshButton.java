@@ -10,6 +10,7 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 
 import com.ganada.silsiganmetro.R;
 
@@ -17,6 +18,7 @@ public class RefreshButton extends RelativeLayout {
 
     private OnClickListener listener;
     private ImageView imgArrow;
+    private TextView txtTime;
     private Animation animSpin;
 
     public RefreshButton(Context context) {
@@ -34,9 +36,14 @@ public class RefreshButton extends RelativeLayout {
         LayoutInflater li = (LayoutInflater) getContext().getSystemService(infService);
         View v = li.inflate(R.layout.layout_refreshbutton, null);
         imgArrow = v.findViewById(R.id.imgTime);
+        txtTime = v.findViewById(R.id.txtTime);
         animSpin = AnimationUtils.loadAnimation(context, R.anim.spin_anim);
 
         addView(v);
+    }
+
+    public void setTime(String text) {
+        txtTime.setText(text);
     }
 
     public void startAnimation() {

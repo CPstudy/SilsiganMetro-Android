@@ -24,7 +24,10 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.ganada.silsiganmetro.MetroOAuthHandler;
+import com.ganada.silsiganmetro.OAuthDelegator;
 import com.ganada.silsiganmetro.R;
 import com.ganada.silsiganmetro.MetroApplication;
 import com.ganada.silsiganmetro.common.Important;
@@ -37,12 +40,13 @@ import com.ganada.silsiganmetro.util.Units;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
+import com.nhn.android.naverlogin.OAuthLogin;
 
 import java.util.ArrayList;
 import java.util.Calendar;
 
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements OAuthDelegator {
 
     private SharedPreferences mPref;
     private SharedPreferences.Editor mPrefEdit;
@@ -118,9 +122,11 @@ public class MainActivity extends AppCompatActivity {
         setTime();
         CheckNetwork();
 
-        if(mPref.getInt("helper", 0) != 1) {
-            Intent intent = new Intent(this, HelperActivity.class);
+        if(mPref.getInt("helper", 0) < 2) {
+            Intent intent = new Intent(this, HelpActivity.class);
             startActivity(intent);
+            mPrefEdit.putInt("helper", 2);
+            mPrefEdit.apply();
         }
 
         btn_favorite.setOnClickListener(new View.OnClickListener() {
@@ -138,6 +144,24 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        //MetroOAuthHandler mOAuthLoginHandler = new MetroOAuthHandler(this, this);
+        //OAuthLogin.getInstance().startOauthLoginActivity(this, mOAuthLoginHandler);
+    }
+
+    @Override
+    public void onLoginSuccess() {
+
+    }
+
+    @Override
+    public void onLoginFail() {
+        Toast.makeText(this, "Login Fail", Toast.LENGTH_SHORT).show();
+    }
+
+    @Override
+    public void onTokenGet(String token) {
+        Toast.makeText(this, "로그인 되었습니다." + token, Toast.LENGTH_SHORT).show();
     }
 
     @Override

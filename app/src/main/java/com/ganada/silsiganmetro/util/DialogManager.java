@@ -6,7 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 
-import com.ganada.silsiganmetro.activity.CaptureActivity;
+import com.ganada.silsiganmetro.activity.WebActivity;
 
 public class DialogManager {
     Context context;
@@ -14,11 +14,11 @@ public class DialogManager {
         this.context = context;
     }
 
-    public void alertTrainDialog(final String text) {
-        String[] arr = {"메뉴1", "메뉴2"};
+    public void alertTrainDialog(final String text, final String trainNo) {
+        String[] arr = {"오글 로리", "편성번호 입력"};
 
         AlertDialog.Builder alert = new AlertDialog.Builder(context, android.R.style.Theme_DeviceDefault_Light_Dialog);
-        alert.setTitle("다이얼로그");
+        alert.setTitle("#" + trainNo + " 열차");
         alert.setItems(arr, new DialogInterface.OnClickListener() {
             public void onClick(DialogInterface dialog, int which) {
                 // The 'which' argument contains the index position
@@ -30,7 +30,8 @@ public class DialogManager {
                         break;
 
                     case 1:
-                        intent = new Intent(context, CaptureActivity.class);
+                        intent = new Intent(context, WebActivity.class);
+                        intent.putExtra("trainNo", trainNo);
                         context.startActivity(intent);
                         break;
                 }

@@ -44,6 +44,7 @@ import com.ganada.silsiganmetro.real.Realtime;
 import com.ganada.silsiganmetro.MetroApplication;
 import com.ganada.silsiganmetro.util.ThemeManager;
 import com.ganada.silsiganmetro.view.CustomTitlebar;
+import com.ganada.silsiganmetro.view.RefreshButton;
 
 
 import org.apache.http.HttpResponse;
@@ -68,14 +69,14 @@ public class Line6Activity extends Activity {
 	private MyAsyncTask myAsyncTask;
 
 	ThemeManager tm;
+	LineManager lineManager;
 	MetroApplication sv;
 	ArrayList<ListNorm> arCustomList;
 	ListNormAdapter adapter;
 	CustomTitlebar layTitle;
 	ListView list;
 	Animation animSpin;
-	ImageView imgTime;
-	Button btnRefresh;
+	RefreshButton btnRefresh;
 	RelativeLayout layout_title;
 	TextView btnInfo;
 	ImageButton btnBack;
@@ -88,6 +89,7 @@ public class Line6Activity extends Activity {
 	int iPosition;
 	int i_favorite;
 	boolean bool_pos;
+    String receivedTime = "--";
 	String POS_LINE = "pos_line6";
 	String BOOL_LINE = "bool_line6";
 	String xml;
@@ -105,7 +107,6 @@ public class Line6Activity extends Activity {
 
 		arCustomList = new ArrayList<>();
 		ListNorm listnorm;
-		imgTime = findViewById(R.id.imgTime);
 		btnRefresh = findViewById(R.id.btnRefresh);
 		layTitle = findViewById(R.id.layTitle);
 		footer = getLayoutInflater().inflate(R.layout.item_footer, null, false);
@@ -113,6 +114,7 @@ public class Line6Activity extends Activity {
 		mPref = getSharedPreferences("Pref1", 0);
 		mPrefEdit = mPref.edit();
 		tm = new ThemeManager(getBaseContext());
+		lineManager = new LineManager(getBaseContext());
 		iTheme = mPref.getInt("iTheme", 0);
 
 		Window window = getWindow();
@@ -218,7 +220,9 @@ public class Line6Activity extends Activity {
 		arCustomList.add(listnorm);
 		listnorm = new ListNorm("화랑대", 1006000646, 0);
 		arCustomList.add(listnorm);
-		listnorm = new ListNorm("봉화산", 1006000647, 3);
+		listnorm = new ListNorm("봉화산", 1006000647, 0);
+		arCustomList.add(listnorm);
+		listnorm = new ListNorm("신내", 1006000648, 3);
 		arCustomList.add(listnorm);
 
 		adapter = new ListNormAdapter(this, tm.getListTheme(iTheme, LineManager.LINE_6, mPref.getInt("iLineStatus", 0)), arCustomList);
@@ -422,8 +426,8 @@ public class Line6Activity extends Activity {
 				viewHolder.view_line2.setVisibility(View.INVISIBLE);
 				viewHolder.view_line3.setVisibility(View.VISIBLE);
 				viewHolder.view_line4.setVisibility(View.INVISIBLE);
-				viewHolder.icon_station_down_norm.setImageResource(R.drawable.icon_1006_norm);
-				viewHolder.icon_station_up_norm.setImageResource(R.drawable.icon_1006_norm);
+				viewHolder.icon_station_down_norm.setImageResource(R.drawable.icon_1006_tran);
+				viewHolder.icon_station_up_norm.setImageResource(R.drawable.icon_1006_tran);
 			}
 
 			if (boolInfo) {
@@ -649,7 +653,7 @@ public class Line6Activity extends Activity {
 		@Override
 		protected void onPreExecute() {
 			super.onPreExecute();
-			imgTime.startAnimation(animSpin);
+			btnRefresh.startAnimation();
 		}
 
 		// 수행 >> 끝나면 종료
@@ -673,7 +677,8 @@ public class Line6Activity extends Activity {
 		@Override
 		protected void onPostExecute(String result) {
 			super.onPostExecute(result);
-			imgTime.clearAnimation();
+			btnRefresh.stopAnimation();
+			btnRefresh.setTime(receivedTime);
 			adapter.notifyDataSetChanged();
 			if(result != null){
 				Log.d("ASYNC", "result = " + result);
@@ -727,6 +732,8 @@ public class Line6Activity extends Activity {
 
 		try {
 			JSONObject json = new JSONObject(pRecvServerPage);
+			receivedTime = json.getString("time");
+            json = json.getJSONObject("result");
 			JSONArray jArr = json.getJSONArray("realtimePositionList");
 
 			String[] jsonName = {"statnId", "updnLine", "trainNo", "statnTnm", "trainSttus", "directAt"};
@@ -746,15 +753,7 @@ public class Line6Activity extends Activity {
 				station[i] = Integer.parseInt(parseredData[i][0]);
 				status[i] = Integer.parseInt(parseredData[i][1]);
 				trainNo[i] = parseredData[i][2];
-				if(parseredData[i][3].equals("응암(하선-종착)")) {
-					trainHead[i] = tm.changeWord("응암순환");
-				} else if(parseredData[i][3].equals("대흥(서강대앞)")) {
-					trainHead[i] = "대흥";
-				} else if(parseredData[i][3].equals("안암(고대병원앞)")) {
-					trainHead[i] = "안암";
-				} else {
-					trainHead[i] = tm.changeWord(parseredData[i][3]);
-				}
+				trainHead[i] = tm.changeWord(lineManager.getTrainDst(parseredData[i][3]));
 				trainStatus[i] = parseredData[i][4];
 				if(trainStatus[i].equals("0")) {
 					trainStatus[i] = "진입";
@@ -794,13 +793,13 @@ public class Line6Activity extends Activity {
 				iTime--;
 			} else {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 				iTime = iSec;
 			}
 
 			if(iTime == 0 && iSec == 0) {
 				AppStart();
-				imgTime.startAnimation(animSpin);
+				btnRefresh.startAnimation();
 			} else {
 				Log.e("iTime >>>>>> ", "iTime = " + iTime);
 				mHandler.sendEmptyMessageDelayed(0, 1000);
@@ -812,7 +811,7 @@ public class Line6Activity extends Activity {
 	public void onPause() {
 		super.onPause();
 		myAsyncTask.cancel(true);
-		imgTime.clearAnimation();
+		btnRefresh.stopAnimation();
 	}
 
 	@Override

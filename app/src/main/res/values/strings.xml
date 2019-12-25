@@ -15,8 +15,7 @@
     <string name="timetable_1">05:30\nK1234 종합운동장</string>
     <string name="timetable_2">05:30\n종합운동장 K1234</string>
 
-
-    <string name="str_version">5.18</string>
+    <string name="str_version">5.20</string>
     <string name="banner_ad_unit_id">ca-app-pub-9749702189208691/5344348679</string>
 
     <string-array name="lineManager">
