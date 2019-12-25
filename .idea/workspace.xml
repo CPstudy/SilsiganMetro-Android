@@ -30,379 +30,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b46b9bb6-c06b-4f63-a251-e9b05647a865" name="Default" comment="광고 위치 다시 수정&#10;&#10;&gt; 하단으로 내렸던 광고를 다시 상단으로 올렸습니다.">
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/ResourceUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/HelpActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/TrainInfoActivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/DoubleStationAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xhdpi/train_dawon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/bg_refresh_time.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_help.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_train_info.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_line_left_double.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_line_right_single.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.10/taskArtifacts/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileChanges/last-build.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/annotation-processors.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileContent/fileContent.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/fileHashes.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/fileHashes/resourceHashesCache.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/gc.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10.1/taskHistory/taskHistory.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/gradle_models.ser" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_common_1_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_core_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_common_1_1_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_livedata_core_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_viewmodel_1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_animated_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_appcompat_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_cardview_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_1_1_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_2_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_constraint_constraint_layout_solver_1_1_2_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_design_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_1_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_multidex_instrumentation_1_0_2_aar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_recyclerview_v7_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_annotations_27_1_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_vector_drawable_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_transition_27_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_CPstudy_Sandwich_v1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_CPstudy_Sandwich_v1_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_5_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_annotations_4_5_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_5_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_disklrucache_4_5_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_gifdecoder_4_5_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_5_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_5_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_15_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_15_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_15_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_15_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_5_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ads_15_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ads_15_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_2_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_8_8_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_jakewharton_butterknife_annotations_8_8_1_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_naver_nid_naveridlogin_android_sdk_4_2_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_naver_nid_naveridlogin_android_sdk_4_2_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_apache_http_legacy_android_27.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_annotations_13_0_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_3_21_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_3_21_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_21_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_3_21_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SilsiganMetro.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SilsiganMetro.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" afterPath="$PROJECT_DIR$/app/proguard-rules.pro" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/ganada/silsiganmetro/ApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/ganada/silsiganmetro/ApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1001.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1001.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1001_1.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1001_1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1002.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1002.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1003.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1003.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1004.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1004.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1005.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1005.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1006.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1006.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1007.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1007.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1008.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1008.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1009.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1009.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1063.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1063.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1065.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1065.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1067.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1067.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1071.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1071.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1075.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1075.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/1077.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/1077.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/bundang_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/bundang_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/bundang_weekend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/bundang_weekend.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line1_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line1_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line1_weekend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line1_weekend.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line3_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line3_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line3_weekend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line3_weekend.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line4_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line4_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line4_weekend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line4_weekend.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line8_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line8_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/line8_weekend.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/line8_weekend.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/assets/opensource.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/assets/opensource.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/MetroApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/MetroApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/MetroOAuthHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/MetroOAuthHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/OAuthDelegator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/OAuthDelegator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/BundangActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/BundangActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/CaptureActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/WebActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/FabsortActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/FabsortActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/FavoriteActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/FavoriteActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/GonghangActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/GonghangActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/HelperActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/HelperActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/KChoonActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/KChoonActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/KJoongActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/KJoongActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line1Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line2Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line2Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line3Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line3Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line4Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line4Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line5Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line5Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line6Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line6Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line7Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line7Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line8Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line8Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line9Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line9Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/LoginActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/OpenSourceActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/OpenSourceActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SettingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SettingActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/ShinBundangActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/ShinBundangActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SortActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SortActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SplashActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/StationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/StationActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SuinActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SuinActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/ThemeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/ThemeActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/TimetableActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/TimetableActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/Important.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/Important.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/ItemMoveListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/ItemMoveListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/OnStartDragListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/OnStartDragListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/SimpleItemTouchHelperCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/SimpleItemTouchHelperCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/StringRefactor.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/StringRefactor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/BindViewHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/BindViewHolder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/LabActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/LabActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/LineActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/LineActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/LineType.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/LineType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/MetroConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/MetroConstant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/StationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/laboratory/StationAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/DataList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/DataList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/LineStation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/LineStation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListDouble.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListDouble.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListExpress.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListExpress.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListFavorite.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListFavorite.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListNorm.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListNorm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/ListTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/TimeList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/TimeList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/TrainList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/listitem/TrainList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/FavoriteInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/FavoriteInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/GetType.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/GetType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/Realtable.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/Realtable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/Realtime.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/real/Realtime.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/CalcDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/CalcDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/DBManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/DialogManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/DialogManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/LineManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/LineManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/ThemeManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/ThemeManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/Units.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/util/Units.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/CustomTitlebar.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/CustomTitlebar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/CustomToast.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/CustomToast.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/LineRail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/LineRail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/MiniTrain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/MiniTrain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/RefreshButton.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/RefreshButton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/SettingItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/SettingItem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/StrokeTextView.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/StrokeTextView.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainIcon.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainIcon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainLabel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainLabel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainLocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainLocation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainRail.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/view/TrainRail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/cycle_7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/cycle_7.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/hold.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/hold.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/pop_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/pop_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_left.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_out_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/slide_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/anim/spin_anim.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/anim/spin_anim.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_train_info_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/bg_train_info_black.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_btn_refresh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_btn_refresh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_btn_transparent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/bg_btn_transparent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/btn_refresh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/btn_refresh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/item_main_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/item_main_bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-v21/item_main_bg_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-v21/item_main_bg_black.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_linenum.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-xxxhdpi/icon_linenum.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/background_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/background_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_refresh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_refresh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_transparent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_btn_transparent.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/bg_train_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/bg_train_info.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/btn_refresh.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/btn_refresh.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_clock.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_clock.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_subway_vector.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_subway_vector.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1001_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1002_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1003_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1004_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1005_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1006_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1007_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1008_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1009_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1063_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1065_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1067_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1075_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_cir.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_cir.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_norm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_norm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_sta.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_sta.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_tran.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/icon_1077_tran.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_blue.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_blue.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_fab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_fab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_gray.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_gray.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_main_bg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_main_bg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_main_bg_black.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_main_bg_black.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_toast.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_toast.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/item_white.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/item_white.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/kitkat_status_bar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/kitkat_status_bar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/train_side_down.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/train_side_down.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/train_side_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/train_side_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_capture.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_fabsort.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_fabsort.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_helper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_helper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_lab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_lab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_line.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_line.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_line8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_line8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_open_source.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_open_source.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_setting.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sort.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sort.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_splash.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_station.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_station.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_theme.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_theme.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_timetable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_traininfo.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_traininfo.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/dialog_traininfo2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/dialog_traininfo2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fab_train_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fab_train_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/footer_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/footer_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_center.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_center.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_double_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_double_left.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_double_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_double_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_express_sub.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_express_sub.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_fabsort.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_fabsort.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_favorite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_favorite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_favorite_test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_favorite_test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_footer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_footer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_lab.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_lab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_old_double_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_old_double_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_old_single_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_old_single_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_sep.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_sep.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_seperator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_seperator.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_settings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_single_left.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_single_left.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_single_right.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_single_right.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_sort.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_sort.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_test_single.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_line_left_single.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/item_timetable.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/item_timetable.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_customtitlebar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_customtitlebar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_fav_train_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_fav_train_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_linerail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_linerail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_minitrain.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_minitrain.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_refreshbutton.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_refreshbutton.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_train_rail.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_train_rail.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_train_up.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_train_up.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_trainlabel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_trainlabel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_trainlocation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_trainlocation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/spinner_item.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/toast_layout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/toast_layout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/train_side.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/train_side.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v19/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v19/color.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-v19/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-w820dp/ids.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-w820dp/ids.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/color.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/color.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/constraint/group-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/android/support/group-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/com/google/firebase/group-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/maven.google/master-index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/intermediates/lint-cache/sdk-registry.xml/sdk-registry.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projectFilesBackup/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projectFilesBackup/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="b46b9bb6-c06b-4f63-a251-e9b05647a865" name="Default" comment="광고 위치 다시 수정&#10;&#10;&gt; 하단으로 내렸던 광고를 다시 상단으로 올렸습니다." />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,8 +68,32 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line3Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="652" column="62" lean-forward="true" selection-start-line="652" selection-start-column="62" selection-end-line="652" selection-end-column="62" />
+            <state relative-caret-position="753">
+              <caret line="652" column="62" selection-start-line="652" selection-start-column="62" selection-end-line="652" selection-end-column="62" />
+              <folding>
+                <element signature="e#9155#9244#0" expanded="true" />
+                <element signature="e#9243#9244#0" expanded="true" />
+                <element signature="e#10345#10346#0" expanded="true" />
+                <element signature="e#10373#10374#0" expanded="true" />
+                <element signature="e#13852#13853#0" expanded="true" />
+                <element signature="e#13878#13879#0" expanded="true" />
+                <element signature="e#13959#13960#0" expanded="true" />
+                <element signature="e#13979#13980#0" expanded="true" />
+                <element signature="e#14058#14059#0" expanded="true" />
+                <element signature="e#14075#14076#0" expanded="true" />
+                <element signature="e#27284#27765#0" expanded="true" />
+                <element signature="e#27764#27765#0" expanded="true" />
+                <element signature="e#27817#28300#0" expanded="true" />
+                <element signature="e#28299#28300#0" expanded="true" />
+                <element signature="e#28338#28677#0" expanded="true" />
+                <element signature="e#28676#28677#0" expanded="true" />
+                <element signature="e#28739#28938#0" expanded="true" />
+                <element signature="e#28937#28938#0" expanded="true" />
+                <element signature="e#29366#30844#0" expanded="true" />
+                <element signature="e#30843#30844#0" expanded="true" />
+                <element signature="e#31230#31607#0" expanded="true" />
+                <element signature="e#31606#31607#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -449,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line7Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="730" column="45" selection-start-line="730" selection-start-column="45" selection-end-line="730" selection-end-column="45" />
+            <state relative-caret-position="10320">
+              <caret line="731" column="43" selection-start-line="731" selection-start-column="43" selection-end-line="731" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -458,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/Important.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
+            <state relative-caret-position="255">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
@@ -467,7 +119,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
+            <state relative-caret-position="255">
               <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
             </state>
           </provider>
@@ -485,7 +137,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/BundangActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3600">
+            <state relative-caret-position="11160">
               <caret line="790" column="13" selection-start-line="790" selection-start-column="13" selection-end-line="790" selection-end-column="13" />
             </state>
           </provider>
@@ -494,8 +146,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line9Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="1009" column="45" selection-start-line="1009" selection-start-column="45" selection-end-line="1009" selection-end-column="45" />
+            <state relative-caret-position="14520">
+              <caret line="1010" column="43" selection-start-line="1010" selection-start-column="43" selection-end-line="1010" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -503,8 +155,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/ShinBundangActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="551" column="45" selection-start-line="551" selection-start-column="45" selection-end-line="551" selection-end-column="45" />
+            <state relative-caret-position="7665">
+              <caret line="552" column="43" selection-start-line="552" selection-start-column="43" selection-end-line="552" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -512,8 +164,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SuinActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="603" column="45" selection-start-line="603" selection-start-column="45" selection-end-line="603" selection-end-column="45" />
+            <state relative-caret-position="8415">
+              <caret line="604" column="43" selection-start-line="604" selection-start-column="43" selection-end-line="604" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -521,8 +173,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line8Activity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="704" column="45" selection-start-line="704" selection-start-column="45" selection-end-line="704" selection-end-column="45" />
+            <state relative-caret-position="9885">
+              <caret line="705" column="43" selection-start-line="705" selection-start-column="43" selection-end-line="705" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -647,75 +299,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
             <path>
               <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
             </path>
             <path>
               <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
             </path>
             <path>
               <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="silsiganmetro" type="cbb59c9e:AndroidPsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="silsiganmetro" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="activity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="silsiganmetro" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="silsiganmetro" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="real" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="silsiganmetro" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="silsiganmetro" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="layout" type="ddeffd01:AndroidResFolderTypeNode" />
-            </path>
-            <path>
-              <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
-              <item name="app" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
-              <item name="values" type="ddeffd01:AndroidResFolderTypeNode" />
+              <item name="app" type="e9137016:NonAndroidModuleNode" />
+              <item name="java" type="f7eae187:NonAndroidSourceTypeNode" />
+              <item name="silsiganmetro" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SilsiganMetro" type="1abcf292:AndroidViewProjectNode" />
@@ -725,7 +326,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -942,9 +542,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20293398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20293398" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Build Variants" order="3" side_tool="true" />
@@ -960,7 +559,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Build" order="7" sideWeight="0.4987775" visible="true" weight="0.28231293" />
+      <window_info anchor="bottom" id="Build" order="7" sideWeight="0.4987775" visible="true" weight="0.28231293" />
       <window_info anchor="bottom" id="Android Profiler" order="8" weight="0.32954547" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012225" side_tool="true" weight="0.28231293" />
       <window_info anchor="bottom" id="Logcat" order="10" sideWeight="0.49932885" weight="0.32312927" />
@@ -1300,49 +899,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line7Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="730" column="45" selection-start-line="730" selection-start-column="45" selection-end-line="730" selection-end-column="45" />
+        <state relative-caret-position="10320">
+          <caret line="731" column="43" selection-start-line="731" selection-start-column="43" selection-end-line="731" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line8Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="704" column="45" selection-start-line="704" selection-start-column="45" selection-end-line="704" selection-end-column="45" />
+        <state relative-caret-position="9885">
+          <caret line="705" column="43" selection-start-line="705" selection-start-column="43" selection-end-line="705" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line9Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="1009" column="45" selection-start-line="1009" selection-start-column="45" selection-end-line="1009" selection-end-column="45" />
+        <state relative-caret-position="14520">
+          <caret line="1010" column="43" selection-start-line="1010" selection-start-column="43" selection-end-line="1010" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/ShinBundangActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="551" column="45" selection-start-line="551" selection-start-column="45" selection-end-line="551" selection-end-column="45" />
+        <state relative-caret-position="7665">
+          <caret line="552" column="43" selection-start-line="552" selection-start-column="43" selection-end-line="552" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/SuinActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="603" column="45" selection-start-line="603" selection-start-column="45" selection-end-line="603" selection-end-column="45" />
+        <state relative-caret-position="8415">
+          <caret line="604" column="43" selection-start-line="604" selection-start-column="43" selection-end-line="604" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/common/Important.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="255">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
+        <state relative-caret-position="255">
           <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
         </state>
       </provider>
@@ -1356,15 +955,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/BundangActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
+        <state relative-caret-position="11160">
           <caret line="790" column="13" selection-start-line="790" selection-start-column="13" selection-end-line="790" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/ganada/silsiganmetro/activity/Line3Activity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="652" column="62" lean-forward="true" selection-start-line="652" selection-start-column="62" selection-end-line="652" selection-end-column="62" />
+        <state relative-caret-position="753">
+          <caret line="652" column="62" selection-start-line="652" selection-start-column="62" selection-end-line="652" selection-end-column="62" />
+          <folding>
+            <element signature="e#9155#9244#0" expanded="true" />
+            <element signature="e#9243#9244#0" expanded="true" />
+            <element signature="e#10345#10346#0" expanded="true" />
+            <element signature="e#10373#10374#0" expanded="true" />
+            <element signature="e#13852#13853#0" expanded="true" />
+            <element signature="e#13878#13879#0" expanded="true" />
+            <element signature="e#13959#13960#0" expanded="true" />
+            <element signature="e#13979#13980#0" expanded="true" />
+            <element signature="e#14058#14059#0" expanded="true" />
+            <element signature="e#14075#14076#0" expanded="true" />
+            <element signature="e#27284#27765#0" expanded="true" />
+            <element signature="e#27764#27765#0" expanded="true" />
+            <element signature="e#27817#28300#0" expanded="true" />
+            <element signature="e#28299#28300#0" expanded="true" />
+            <element signature="e#28338#28677#0" expanded="true" />
+            <element signature="e#28676#28677#0" expanded="true" />
+            <element signature="e#28739#28938#0" expanded="true" />
+            <element signature="e#28937#28938#0" expanded="true" />
+            <element signature="e#29366#30844#0" expanded="true" />
+            <element signature="e#30843#30844#0" expanded="true" />
+            <element signature="e#31230#31607#0" expanded="true" />
+            <element signature="e#31606#31607#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
